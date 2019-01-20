@@ -22,20 +22,26 @@ namespace ECS.System
 				bool isAttackNeeded = entity.attack.isAttackNeeded;
 				if(!isAttackNeeded) continue;
 				float3 endPoint = entity.attack.endPoint;
+				float lastAttackTime = entity.attack.lastAttackTime;
+				float currentTime = Time.realtimeSinceStartup;
 				Weapon weapon = entity.weapon.mainWeapon;
 				float3 position = entity.transform.position;
 				float3 direction = endPoint - position;
 				float angle = math.degrees(math.atan2(direction.y, direction.x));
 				float3 forward = new float3(0.0f, 0.0f, 1f);
 				
+				if(lastAttackTime + weapon.cooldown > currentTime) continue;
+
+				lastAttackTime = currentTime;
 				if (weapon.type == WeaponType.Ranged)
 				{
 					GameObject bullet = GameObject.Instantiate(weapon.bulletPrefab, position,quaternion.identity);
-					bullet.transform.rotation = quaternion.AxisAngle(forward, angle); //TODO: ECS
-					bullet.transform.Translate(bullet.transform.forward * weapon.bulletSpeed);
+					bullet.transform.rotation = Quaternion.AngleAxis(angle,forward); //TODO: ECS
+					bullet.GetComponent<Rigidbody2D>().velocity = math.normalize(direction.xy) * weapon.bulletSpeed;
 				}
 
 				entity.attack.isAttackNeeded = false;
+				entity.attack.lastAttackTime = lastAttackTime;
 			}
 		}
 

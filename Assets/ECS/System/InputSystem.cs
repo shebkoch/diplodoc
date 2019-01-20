@@ -26,7 +26,7 @@ namespace ECS.System
 				float vertical = Input.GetAxis(verticalAxisName);
 				Debug.Assert(Camera.main != null, (string) "Camera.main != null");
 				float3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-				mousePosition.z = 0;
+				//mousePosition.z = 0;
 				bool leftDown = Input.GetMouseButton(0);
 				bool rightDown = Input.GetMouseButton(1);
 				MouseKeyState leftState = leftDown ? MouseKeyState.Down : MouseKeyState.Up;

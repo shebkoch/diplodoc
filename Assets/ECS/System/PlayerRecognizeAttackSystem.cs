@@ -47,11 +47,9 @@ namespace ECS.System
 				MouseKeyState leftState = entity.inputMouse.leftState;
 				endPoint = entity.inputMouse.mousePosition;
 				float nextAttackTime = startHold + math.floor(holdTime / holdCooldown);
-				
-				
-				if (leftState == MouseKeyState.Down && lastAttackTime < nextAttackTime)
+
+				if (leftState == MouseKeyState.Down)
 				{
-					lastAttackTime = nextAttackTime;
 					isAttackNeeded = true;
 				}
 			}

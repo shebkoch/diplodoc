@@ -8,7 +8,7 @@ namespace Scripts.Structures
 	{
 		public WeaponType type;
 		public GameObject bulletPrefab;
-		public float attackSpeed;
+		public float cooldown;
 		public int damage;
 		public float bulletSpeed;
 		public List<WeaponBooster> boosters;

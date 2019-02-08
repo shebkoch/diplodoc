@@ -20,11 +20,15 @@ namespace ECS.System
 				float horizontal = entity.moving.horizontal;
 				float vertical = entity.moving.vertical;
 				float speed = entity.moving.speed;
-				float3 curPosition = entity.transform.position;
-
-				float3 movePosition = new Vector3(horizontal, vertical, 0) * speed * Time.deltaTime;
+				float3 position = entity.transform.position;
 				
-				entity.transform.Translate(movePosition);
+				float3 movePosition = new Vector3(horizontal, vertical, 0) * speed * Time.deltaTime;
+
+				position += movePosition;
+				
+				entity.transform.position = position;
+
+				//entity.transform.Translate(movePosition);
 			}
 		}
 	}

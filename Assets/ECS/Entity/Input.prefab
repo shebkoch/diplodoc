@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9028451075722249926}
   - component: {fileID: 9028451075722249925}
   - component: {fileID: 5312461970777848753}
+  - component: {fileID: 4287542582430780319}
   m_Layer: 0
   m_Name: Input
   m_TagString: Untagged
@@ -81,3 +82,17 @@ MonoBehaviour:
   rightState: 0
   startHold: -1
   holdTime: 0
+--- !u!114 &4287542582430780319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9028451075722249924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225171d9b62e44bcb97e2e1dfb10fc2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangedPress: 0
+  meleePress: 0

@@ -11,7 +11,9 @@ namespace ECS.Component
 		public CollisionType type;
 		public bool isEnable;
 		public Dictionary<CollisionComponent, CollisionState> collisions = new Dictionary<CollisionComponent, CollisionState>();
+		public List<CollisionComponent> enterList = new List<CollisionComponent>();
 		
+		public CollisionType receivedDamageFrom;
 		//ecs
 		private void AddToDictionary(Collider2D other, CollisionState state)
 		{
@@ -32,6 +34,7 @@ namespace ECS.Component
 		private void OnTriggerEnter2D(Collider2D other)
 		{
 			AddToDictionary(other,CollisionState.Enter);
+			enterList.Add(other.GetComponent<CollisionComponent>());
 		}
 
 		private void OnTriggerExit2D(Collider2D other)
@@ -47,6 +50,6 @@ namespace ECS.Component
 
 	public enum CollisionType
 	{
-		Enemy,Damage,Player,PickUp, Obstacle
+		Enemy,PlayerAttack,Player,PickUp, Obstacle,EnemyAttack, None
 	}
 }

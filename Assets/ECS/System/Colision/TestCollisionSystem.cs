@@ -7,6 +7,7 @@ using Random = Unity.Mathematics.Random;
 
 namespace DefaultNamespace
 {
+	[DisableAutoCreation]
 	public class TestCollisionSystem : ComponentSystem
 	{
 		protected struct Entity
@@ -42,7 +43,6 @@ namespace DefaultNamespace
 							{
 								if (elem.Index != 0)
 								{
-									EntityManager.GetComponentData<Transform>()
 									entity.collisionComponent.collisions.Add(elem);
 								}
 							}

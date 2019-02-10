@@ -7,6 +7,7 @@ using Random = Unity.Mathematics.Random;
 
 namespace DefaultNamespace
 {
+	[DisableAutoCreation]
 	public class MapRoundSystem : ComponentSystem
 	{
 		protected struct Collision

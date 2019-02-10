@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace DefaultNamespace
 {
+	[DisableAutoCreation]
 	public class ObstacelTestPosition : ComponentSystem
 	{
 		protected struct Collision

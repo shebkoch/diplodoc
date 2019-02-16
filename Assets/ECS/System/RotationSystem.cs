@@ -18,6 +18,8 @@ namespace ECS.System
 		{
 			foreach (Entity entity in GetEntities<Entity>())
 			{
+				if(!entity.rotationComponent.isEnable) continue;
+				
 				float horizontal = entity.movingComponent.horizontal;
 				float vertical = entity.movingComponent.vertical;
 				

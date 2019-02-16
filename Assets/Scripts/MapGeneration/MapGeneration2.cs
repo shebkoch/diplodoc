@@ -9,13 +9,13 @@ namespace DefaultNamespace.MapGeneration
 	public class MapGeneration2 : MonoBehaviour
 	{
 		public GameObject cell;
-		public GameObject point;
 		public List<int2> points;
 		public List<Triangle> triangles;
 		
 		public int2 map;
-		public int pointCount;
-
+		public int triangleCount;
+		public int innerBoundSize;
+		public int outerBoundSize;
 		private void Update()
 		{
 			if(Input.GetKey(KeyCode.R)) Application.LoadLevel(0);
@@ -23,14 +23,18 @@ namespace DefaultNamespace.MapGeneration
 
 		private void Start()
 		{
-			PlotLineLow(new int2(0,map.y),new int2(map.x,map.y));
-			PlotLineLow(new int2(0,0),new int2(map.x,0));
-			PlotLineHigh(new int2(0, 0),new int2(0,map.y));
-			PlotLineHigh(new int2(map.x,0),new int2(map.x, map.y));
-			
+			for (int i = 0; i < innerBoundSize; i++)
+			{
+				PlotBound(i, map-i);
+			}
+
+			for (int i = 0; i < outerBoundSize; i++)
+			{
+				PlotBound(-i, map+i);
+			}
 			Random rand = new Random((uint) System.DateTime.Now.Ticks);
 
-			for (int i = 0; i < pointCount; i++)
+			for (int i = 0; i < triangleCount*3; i++)
 			{
 				points.Add(rand.NextInt2(map));
 			}
@@ -58,34 +62,84 @@ namespace DefaultNamespace.MapGeneration
 
 			DrawTriangles();
 		}
-
+		
 		private void DrawTriangles()
 		{
 			for (var i = 0; i < triangles.Count; i++)
 			{
 				Triangle triangle = triangles[i];
+				triangle.Sort();
 				DrawLine4(triangle.p1, triangle.p2);
 				DrawLine4(triangle.p1, triangle.p3);
 				DrawLine4(triangle.p2, triangle.p3);
-				Debug.Log("tr");
-			}
 
-//			for (int i = 1; i < points.Count - 1; i += 3)
-//			{
-//				List<int2> triangle = new List<int2>();
-//				triangle.Add(points[i - 1]);
-//				triangle.Add(points[i]);
-//				triangle.Add(points[i + 1]);
-//				triangle.Sort((a, b) => a.x.CompareTo(b.x));
-//				foreach (int2 int2 in triangle)
-//				{
-//					Debug.Log(int2 + " ");
-//				}
-//
-//				DrawLine4(triangle[0], triangle[1]);
-//				DrawLine4(triangle[0], triangle[2]);
-//				DrawLine4(triangle[1], triangle[2]);
-//			}
+				//Fill(triangle.p1, triangle.p2, triangle.p3);
+				for (int x = triangle.p1.x; x<=triangle.p2.x; x++)
+				{
+					for (int y = triangle.p1.y; y<=triangle.p2.y; y++)
+					{
+						DrawLine4(new int2(x,y), triangle.p3);
+					}
+				}
+			}
+		}
+
+		private void Fill(int2 A, int2 B, int2 C)
+		{
+			int2 S = int2.zero;
+			int2 E = int2.zero;
+			int2 P = int2.zero;
+			int dx1 = 0, dx2 = 0, dx3 = 0;
+			if (B.y-A.y > 0) dx1 = (B.x - A.x) / (B.y - A.y);
+
+
+			if (C.y-A.y > 0) dx2 = (C.x - A.x) / (C.y - A.y);
+
+			if (C.y-B.y > 0) dx3=(C.x-B.x)/(C.y-B.y);
+
+			S =A;
+			E = A;
+			if(dx1 > dx2) {
+				for(;S.y<=B.y;S.y++,E.y++) {
+					P=S;
+					for(;P.x < E.x;P.x++) {
+						Plot(P);
+					}
+					S.x+=dx2; 
+					E.x+=dx1; 
+				}
+
+				E=B;
+				for(;S.y<=C.y;S.y++,E.y++) {
+					
+					P=S;
+					for(;P.x < E.x;P.x++) {
+						Plot(P);
+					}
+					S.x+=dx2;
+					E.x+=dx3;
+				}
+			} else {
+				for(;S.y<=B.y;S.y++,E.y++) {
+					P=S;
+					for(;P.x < E.x;P.x++) {
+						Plot(P);
+					}
+					S.x+=dx1;
+					E.x+=dx2;
+				}
+
+				S=B;
+				for(;S.y<=C.y;S.y++,E.y++) {
+					
+					P=S;
+					for(;P.x < E.x;P.x++) {
+						Plot(P);
+					}
+					S.x+=dx3; 
+					E.x+=dx2;
+				}
+			}
 		}
 
 		private void DrawLine(int2 a, int2 b)
@@ -164,11 +218,24 @@ namespace DefaultNamespace.MapGeneration
 					PlotLineHigh(a,b);
 			}
 		}
+
+		private void Plot(int2 p)
+		{
+			Plot(p.x,p.y);
+		}
 		private void Plot(int x, int y)
 		{
 			Instantiate(cell, new Vector2(x, y), quaternion.identity);
 		}
 
+		private void PlotBound(int2 a,int2 b)
+		{
+			PlotLineLow(a, new int2(b.x,a.y));
+			PlotLineLow(new int2(a.x,b.y), b);
+			PlotLineHigh(a, new int2(a.x,b.y));
+			PlotLineHigh(new int2(b.x,a.y), b);
+			
+		}
 		private void PlotLineLow(int2 a, int2 b)
 		{
 			int dx = b.x - a.x;

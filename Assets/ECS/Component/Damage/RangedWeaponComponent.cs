@@ -5,6 +5,7 @@ namespace ECS.Component
 {
 	public class RangedWeaponComponent : MonoBehaviour
 	{
+		public bool isEnable;
 		public RangedWeapon rangedWeapon;
 	}
 }

@@ -1,7 +1,6 @@
 using ECS.Component;
 using Unity.Entities;
 using Unity.Mathematics;
-using Unity.Transforms;
 using UnityEngine;
 
 namespace ECS.System
@@ -40,7 +39,5 @@ namespace ECS.System
 				entity.rangedAttackComponent.endPoint = mousePos;
 			}
 		}
-
-
 	}
 }

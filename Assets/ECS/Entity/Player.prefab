@@ -159,6 +159,95 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2038814227992237728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4509157832880057427}
+  - component: {fileID: 6225120662876886648}
+  - component: {fileID: 7021424046325398897}
+  - component: {fileID: 7249822756983917279}
+  - component: {fileID: 853049151352479824}
+  m_Layer: 0
+  m_Name: Artifact
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4509157832880057427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038814227992237728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4537550301205900976}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6225120662876886648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038814227992237728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87050d7517854844b639c548c3dbc55a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCastNeeded: 0
+--- !u!114 &7021424046325398897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038814227992237728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b3321985994c2ba6567e1fcd88b7de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastUse: 0
+  duration: 2
+  isCasting: 0
+--- !u!114 &7249822756983917279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038814227992237728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &853049151352479824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038814227992237728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02f2b23c53746d080ec96b450aa315d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canUse: 1
+  cooldown: 10
+  last: -3.4028235e+38
 --- !u!1 &2397181684554581287
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,6 +369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   isEnable: 1
+  enterList: []
   receivedDamageFrom: 0
 --- !u!1 &4537550301205900984
 GameObject:
@@ -330,6 +420,7 @@ Transform:
   - {fileID: 3024629210417376491}
   - {fileID: 778538709}
   - {fileID: 8266465864437136629}
+  - {fileID: 4509157832880057427}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -405,7 +496,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94abc56d8984685b3cf61470a08a55a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  maxHealth: 30
+  health: 30
   test: 0
 --- !u!114 &4537550301205900981
 MonoBehaviour:
@@ -492,6 +584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   isEnable: 0
+  enterList: []
   receivedDamageFrom: 5
 --- !u!114 &7087692680688903865
 MonoBehaviour:
@@ -522,13 +615,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f856611ca14879858ecfe6cfe2a57d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnable: 1
   rangedWeapon:
     bulletPrefab: {fileID: 6126729562472506645, guid: 00c9ca11b58cab843a51fa1ed9438026,
       type: 3}
     lastAttack: 0
-    cooldown: 1
+    cooldown: 0.33
     bulletSpeed: 7
     damage: 1
+    bulletCount: 10
 --- !u!114 &1190677913343117266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -604,7 +699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c42a5ecc9734ca09a2269cea769e082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEnable: 0
+  isEnable: 1
 --- !u!114 &4537550300344545519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,6 +719,7 @@ MonoBehaviour:
     cooldown: 0
     bulletSpeed: 0
     damage: 0
+    bulletCount: 0
 --- !u!114 &4537550300344545520
 MonoBehaviour:
   m_ObjectHideFlags: 0

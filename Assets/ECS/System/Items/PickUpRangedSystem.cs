@@ -25,6 +25,7 @@ namespace ECS.System.Items
 				if(isUsed) continue;
 				
 				entity.rangedWeaponComponent.rangedWeapon = weapon;
+				entity.rangedWeaponComponent.isEnable = true;
 				entity.pickUpRangedComponent.isUsed = true;
 			}
 		}

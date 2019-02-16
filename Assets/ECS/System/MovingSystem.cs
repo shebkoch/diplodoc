@@ -5,7 +5,8 @@ using UnityEngine;
 
 namespace ECS.System
 {
-	public class MovingSystem :  ComponentSystem
+	[UpdateAfter(typeof(UnityEngine.Experimental.PlayerLoop.FixedUpdate))]
+	public class MovingSystem : ComponentSystem
 	{
 		protected struct Moving
 		{

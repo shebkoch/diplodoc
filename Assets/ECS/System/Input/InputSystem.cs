@@ -12,6 +12,7 @@ namespace ECS.System
      	{
      		public InputMovementComponent inputMovement;
             public InputMouseComponent inputMouse;
+            public InputUseComponent inputUseComponent;
         }
 		protected override void OnUpdate()
 		{
@@ -24,9 +25,9 @@ namespace ECS.System
 				
 				float horizontal = Input.GetAxis(horizontalAxisName);
 				float vertical = Input.GetAxis(verticalAxisName);
-				Debug.Assert(Camera.main != null, (string) "Camera.main != null");
+
+				bool useButtonDown = Input.GetKey(KeyCode.Space);
 				float3 mousePosition = Input.mousePosition;
-				//mousePosition.z = 0;
 				mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 				mousePosition.z = 0;
 				bool leftDown = Input.GetMouseButton(0);
@@ -48,9 +49,8 @@ namespace ECS.System
 				entity.inputMouse.rightState = rightState;
 				entity.inputMouse.holdTime = holdTime;
 				entity.inputMouse.startHold = startHold;
+				entity.inputUseComponent.useButtonDown = useButtonDown;
 			}
 		}
-
-		
 	}
 }

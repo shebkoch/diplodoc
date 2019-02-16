@@ -23,11 +23,14 @@ namespace ECS.System
 				RangedWeapon weapon = entity.rangedWeaponComponent.rangedWeapon;
 				float3 position = entity.transform.position;
 				bool isAttackNeed = entity.rangedAttackComponent.isAttackNeed;
+				bool isWeaponEnable = entity.rangedWeaponComponent.isEnable;
 				float currentTime = Time.realtimeSinceStartup;
 				
-				if (!isAttackNeed || weapon.lastAttack + weapon.cooldown > currentTime) continue;
+				if (!isAttackNeed || !isWeaponEnable || weapon.lastAttack + weapon.cooldown > currentTime) continue;
 
 				weapon.lastAttack = currentTime;
+				weapon.bulletCount--;
+				if (weapon.bulletCount == 0) isWeaponEnable = false;
 				float3 direction = attackPos - position;
 				float angle = math.degrees(math.atan2(direction.y, direction.x));
 				float3 forward = new float3(0.0f, 0.0f, 1f);
@@ -47,9 +50,8 @@ namespace ECS.System
 				bulletMoving.speed = weapon.bulletSpeed;
 				
 				entity.rangedWeaponComponent.rangedWeapon = weapon;
+				entity.rangedWeaponComponent.isEnable = isWeaponEnable;
 			}
 		}
-
-
 	}
 }

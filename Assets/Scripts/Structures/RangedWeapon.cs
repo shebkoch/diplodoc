@@ -10,5 +10,6 @@ namespace Scripts.Structures
 		public float cooldown;
 		public float bulletSpeed;
 		public int damage;
+		public int bulletCount;
 	}
 }

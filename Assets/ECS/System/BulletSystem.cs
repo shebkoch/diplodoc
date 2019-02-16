@@ -22,7 +22,9 @@ namespace ECS.System
 				var collisions = entity.collisionComponent.collisions;
 
 				int size = collisions.Count(pair => pair.Key.type != CollisionType.Player &&
-				                                    pair.Key.type != CollisionType.PlayerAttack);
+				                                    pair.Key.type != CollisionType.PlayerAttack &&
+				                                    pair.Key.type != CollisionType.None &&
+				                                    pair.Key.type != CollisionType.EnemyAttack);
 
 				if (size > 0)
 				{

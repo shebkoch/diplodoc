@@ -7,6 +7,7 @@ using UnityEngine;
 
 namespace ECS.System
 {
+	//ECS
 	public class _PickUpSystem : ComponentSystem
 	{
 		protected struct Ranged
@@ -51,6 +52,8 @@ namespace ECS.System
 					pickUpMelee.gameObject.GetComponent<ParametersComponent>().health--;
 					
 					entity.pickUpMeleeComponent.weapon = pickUpMelee.weapon;
+					entity.pickUpMeleeComponent.weaponObject.
+							GetComponent<SpriteRenderer>().sprite = pickUpMelee.weapon.sprite;
 					entity.pickUpMeleeComponent.isUsed = false;
 					
 					keys.Add(collision.Key);

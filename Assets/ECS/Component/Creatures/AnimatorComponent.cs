@@ -1,4 +1,3 @@
-using Unity.Mathematics;
 using UnityEngine;
 
 namespace ECS.Component
@@ -8,6 +7,5 @@ namespace ECS.Component
 		public Animator animator;
 		public string attackAnimation;
 		public bool isAnimationNeeded;
-
 	}
 }

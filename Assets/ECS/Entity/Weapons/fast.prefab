@@ -29,7 +29,7 @@ Transform:
   m_LocalScale: {x: 0.04690316, y: 1.646, z: 1}
   m_Children: []
   m_Father: {fileID: 116717785111482989}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.23}
 --- !u!212 &5176929508216893806
 SpriteRenderer:
@@ -86,11 +86,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 789327703125160996, guid: 736043b4687650f4d83c6806bea31795,
-        type: 3}
-      propertyPath: m_Name
-      value: rangedPick Variant
-      objectReference: {fileID: 0}
     - target: {fileID: 789327703125161016, guid: 736043b4687650f4d83c6806bea31795,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -149,12 +144,17 @@ PrefabInstance:
     - target: {fileID: 789327703125161016, guid: 736043b4687650f4d83c6806bea31795,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.0999756
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 789327703125161016, guid: 736043b4687650f4d83c6806bea31795,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4960049
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 789327703125160996, guid: 736043b4687650f4d83c6806bea31795,
+        type: 3}
+      propertyPath: m_Name
+      value: fast
       objectReference: {fileID: 0}
     - target: {fileID: 789327703125161019, guid: 736043b4687650f4d83c6806bea31795,
         type: 3}
@@ -176,6 +176,12 @@ PrefabInstance:
       propertyPath: weapon.bulletSpeed
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 789327703125161019, guid: 736043b4687650f4d83c6806bea31795,
+        type: 3}
+      propertyPath: weapon.sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7fbc183759bcd034eb64e6ee83891bf3,
+        type: 3}
     - target: {fileID: 789327704445713828, guid: 736043b4687650f4d83c6806bea31795,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -196,6 +202,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.2489848
       objectReference: {fileID: 0}
+    - target: {fileID: 789327703125161017, guid: 736043b4687650f4d83c6806bea31795,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7fbc183759bcd034eb64e6ee83891bf3,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 736043b4687650f4d83c6806bea31795, type: 3}
 --- !u!4 &116717785111482989 stripped

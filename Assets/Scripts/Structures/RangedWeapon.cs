@@ -1,8 +1,9 @@
+using System;
 using UnityEngine;
 
 namespace Scripts.Structures
 {
-	[System.Serializable]
+	[Serializable]
 	public struct RangedWeapon
 	{
 		public GameObject bulletPrefab;
@@ -11,5 +12,6 @@ namespace Scripts.Structures
 		public float bulletSpeed;
 		public int damage;
 		public int bulletCount;
+		public Sprite sprite;
 	}
 }

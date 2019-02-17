@@ -7,14 +7,18 @@ namespace ECS.Component
 {
 	public class TestCollisionComponent : MonoBehaviour
 	{
-		public float radius;
-		public int3 position;
-		public CollisionType type;
 		public List<Entity> collisions;
+		public int3 position;
+		public float radius;
+		public CollisionType type;
 	}
 
 	public enum TestCollisionType
 	{
-		Enemy,Damage,Player,PickUp,Obstacle
+		Enemy,
+		Damage,
+		Player,
+		PickUp,
+		Obstacle
 	}
 }

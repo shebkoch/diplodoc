@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Sasha\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Sasha\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_diplodoc.-1641308279.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Sasha\Documents\Projects\diplodoc" t="IncludeRecursive">
+    <e p="C:\Users\shebk\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\shebk\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_diplodoc.1359748080.00" t="ExcludeRecursive" />
+    <e p="D:\diplodoc" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="CompassStudio" t="Include">
@@ -47,6 +47,9 @@
             <e p="Items" t="Include">
               <e p="PickUpMeleeComponent.cs" t="Include" />
               <e p="PickUpRangedComponent.cs" t="Include" />
+            </e>
+            <e p="Modificators" t="Include">
+              <e p="StunModificatorComponent.cs" t="Include" />
             </e>
             <e p="Relations" t="Include">
               <e p="CollisionComponent.cs" t="Include" />
@@ -93,6 +96,10 @@
               <e p="PickUpRangedSystem.cs" t="Include" />
             </e>
             <e p="MeleeAttackSystem.cs" t="Include" />
+            <e p="Modificators" t="Include">
+              <e p="StunModificatorDrawing.cs" t="Include" />
+              <e p="StunModificatorSystem.cs" t="Include" />
+            </e>
             <e p="MouseControllerSystem.cs" t="Include" />
             <e p="MovingSystem.cs" t="Include" />
             <e p="RangedAttackSystem.cs" t="Include" />
@@ -114,7 +121,6 @@
           </e>
           <e p="Spawner.cs" t="Include" />
           <e p="Structures" t="Include">
-            <e p="Artefact.cs" t="Include" />
             <e p="entity4.cs" t="Include" />
             <e p="MeleeWeapon.cs" t="Include" />
             <e p="RangedWeapon.cs" t="Include" />

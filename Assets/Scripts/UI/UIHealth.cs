@@ -7,10 +7,11 @@ namespace DefaultNamespace.UI
 {
 	public class UIHealth : MonoBehaviour
 	{
-		public UIHealthComponent uiHealthComponent;
-		public ParametersComponent playerParameters;
-		private float maxHealth;
 		private Image image;
+		private float maxHealth;
+		public ParametersComponent playerParameters;
+		public UIHealthComponent uiHealthComponent;
+
 		private void Start()
 		{
 			maxHealth = playerParameters.maxHealth;

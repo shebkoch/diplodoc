@@ -8,9 +8,9 @@ namespace DefaultNamespace.UI
 	public class UIBullet : MonoBehaviour
 	{
 		public UIBulletComponent bulletComponent;
-		public RangedWeaponComponent rangedWeaponComponent;
 
 		private Text bulletText;
+		public RangedWeaponComponent rangedWeaponComponent;
 
 		private void Start()
 		{

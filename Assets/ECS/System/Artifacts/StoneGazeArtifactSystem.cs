@@ -1,3 +1,4 @@
+using DefaultNamespace;
 using ECS.Component;
 using ECS.Component.Artifacts;
 using ECS.Component.Artifacts.Common;
@@ -7,7 +8,7 @@ using UnityEngine;
 
 namespace ECS.System.Artifacts
 {
-	[UpdateAfter(typeof(PlayerFollowSystem))]
+	
 	public class StoneGazeArtifactSystem : ComponentSystem
 	{
 		protected struct Artifact
@@ -16,15 +17,11 @@ namespace ECS.System.Artifacts
 			public ArtifactUsingComponent artifactUsingComponent;
 			public CooldownComponent cooldownComponent;
 		}
+
 		protected struct Enemy
 		{
 			public EnemyComponent enemyComponent;
-			public MovingComponent movingComponent;
-		}
-		protected struct EnemyRotation
-		{
-			public EnemyComponent enemyComponent;
-			public RotationComponent rotationComponent;
+			public StunModificatorComponent stunModificatorComponent;
 		}
 
 		protected override void OnUpdate()
@@ -33,49 +30,43 @@ namespace ECS.System.Artifacts
 			bool isCasting = false;
 			bool enable = false;
 			float currentTime = Time.realtimeSinceStartup;
+			float duration = 0;
+			float3 playerPos = new float3();
+			float radius = 0;
 			
 			foreach (Artifact entity in GetEntities<Artifact>())
 			{
 				bool isCastNeeded = entity.artifactUsingComponent.isCastNeeded;
 				enable = entity.cooldownComponent.canUse;
-				isCasting = entity.stoneGazeArtifact.isCasting;	
-				lastUse = entity.stoneGazeArtifact.lastUse;
-				float duration = entity.stoneGazeArtifact.duration;
-
-				if (lastUse + duration < currentTime) isCasting = false;
-				
+				duration = entity.stoneGazeArtifact.duration;
+				radius = entity.stoneGazeArtifact.radius;
 				if (isCastNeeded && enable)
 				{
 					lastUse = currentTime;
 					isCasting = true;
 					enable = false;
 				}
+			}
 
+			if (isCasting)
+			{
+				foreach (var entity in GetEntities<Enemy>())
+				{
+					entity.stunModificatorComponent.last = lastUse;
+					entity.stunModificatorComponent.duration = duration;
+					entity.stunModificatorComponent.isEnable = true;
+					
+				}
+			}
+			
+			foreach (Artifact entity in GetEntities<Artifact>())
+			{
+				entity.cooldownComponent.canUse = enable;
+				if(lastUse != 0)
+					entity.cooldownComponent.last = lastUse;
 			}
 
 			
-			bool isRotationEnable = true;
-			if (isCasting)
-			{
-				isRotationEnable = false;
-				foreach (Enemy entity in GetEntities<Enemy>())
-				{
-					entity.movingComponent.vertical = 0;
-					entity.movingComponent.horizontal = 0;
-				}
-			}
-			//TODO it can create error if anybody else disable rotation 
-			foreach (EnemyRotation entity in GetEntities<EnemyRotation>())
-			{
-				entity.rotationComponent.isEnable = isRotationEnable;
-			}
-			foreach (Artifact entity in GetEntities<Artifact>())
-			{
-				entity.stoneGazeArtifact.lastUse = lastUse;
-				entity.stoneGazeArtifact.isCasting = isCasting;
-				entity.cooldownComponent.canUse = enable;
-				entity.cooldownComponent.last = lastUse;
-			}
 		}
 
 	}

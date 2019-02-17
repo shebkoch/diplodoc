@@ -1,8 +1,9 @@
+using System;
 using Unity.Mathematics;
 
 namespace DefaultNamespace.MapGeneration
 {
-	[System.Serializable]
+	[Serializable]
 	public struct Triangle
 	{
 		public int2 p1, p2, p3;
@@ -19,7 +20,7 @@ namespace DefaultNamespace.MapGeneration
 
 		private void swap(ref int2 a, ref int2 b)
 		{
-			int2 buff = a;
+			var buff = a;
 			a = b;
 			b = buff;
 		}

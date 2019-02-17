@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 116717785111482993, guid: c4e6bc43a7b5c3441a13ddd22f7cfcaf,
         type: 3}
       propertyPath: m_Name
-      value: rangedPick Variant 1
+      value: bazuka
       objectReference: {fileID: 0}
     - target: {fileID: 116717785111482989, guid: c4e6bc43a7b5c3441a13ddd22f7cfcaf,
         type: 3}
@@ -73,6 +73,27 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2056304443536518663, guid: 7da3f2e93b3b7734187279b053bc985e,
         type: 3}
+    - target: {fileID: 116717785111482990, guid: c4e6bc43a7b5c3441a13ddd22f7cfcaf,
+        type: 3}
+      propertyPath: weapon.cooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 116717785111482990, guid: c4e6bc43a7b5c3441a13ddd22f7cfcaf,
+        type: 3}
+      propertyPath: weapon.bulletCount
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 116717785111482990, guid: c4e6bc43a7b5c3441a13ddd22f7cfcaf,
+        type: 3}
+      propertyPath: weapon.bulletSpeed
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 116717785111482990, guid: c4e6bc43a7b5c3441a13ddd22f7cfcaf,
+        type: 3}
+      propertyPath: weapon.sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 14ab0f2d396a8ae48885c8cb5a135e07,
+        type: 3}
     - target: {fileID: 116717786552622065, guid: c4e6bc43a7b5c3441a13ddd22f7cfcaf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -123,5 +144,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 116717785111482988, guid: c4e6bc43a7b5c3441a13ddd22f7cfcaf,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 14ab0f2d396a8ae48885c8cb5a135e07,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4e6bc43a7b5c3441a13ddd22f7cfcaf, type: 3}

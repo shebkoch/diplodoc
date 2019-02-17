@@ -1,7 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.Serialization;
-using JetBrains.Annotations;
 using Unity.Entities;
 
 namespace Scripts.Structures
@@ -16,8 +13,8 @@ namespace Scripts.Structures
 		//ECS split in to logic and data
 		public void SetAny(Entity entity)
 		{
-			if(x == entity || y == entity || z == entity || w == entity) return;
-			
+			if (x == entity || y == entity || z == entity || w == entity) return;
+
 			if (x.Index == 0) x = entity;
 			else if (y.Index == 0) y = entity;
 			else if (z.Index == 0) z = entity;

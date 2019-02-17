@@ -44,6 +44,13 @@ namespace ECS.System
 				float vertical = result.y;
 
 				//ECS
+				if (!isWeaponEnable)
+				{
+					SpriteRenderer spriteRenderer = bullet.GetComponent<SpriteRenderer>();
+					spriteRenderer.sprite = weapon.sprite;
+					spriteRenderer.color = Color.white;
+					bullet.transform.localScale = float3.zero + 1;
+				}
 				var bulletMoving = bullet.GetComponent<MovingComponent>();
 				bulletMoving.vertical = vertical;
 				bulletMoving.horizontal = horizontal;

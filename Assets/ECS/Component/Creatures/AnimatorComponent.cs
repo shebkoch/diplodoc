@@ -7,5 +7,7 @@ namespace ECS.Component
 	{
 		public Animator animator;
 		public string attackAnimation;
+		public bool isAnimationNeeded;
+
 	}
 }

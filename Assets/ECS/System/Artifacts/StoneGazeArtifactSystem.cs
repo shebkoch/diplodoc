@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace ECS.System.Artifacts
 {
-	[UpdateAfter(typeof(EnemyFindPlayerSystem))]
+	[UpdateAfter(typeof(PlayerFollowSystem))]
 	public class StoneGazeArtifactSystem : ComponentSystem
 	{
 		protected struct Artifact

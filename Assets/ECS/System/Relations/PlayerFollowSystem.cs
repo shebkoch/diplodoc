@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace ECS.System
 {
-	public class EnemyFindPlayerSystem : ComponentSystem
+	public class PlayerFollowSystem : ComponentSystem
 	{
 		protected struct Player
 		{
@@ -31,10 +31,11 @@ namespace ECS.System
 			{
 				float3 enemyPosition = entity.transform.position;
 				float offset = entity.playerFollowComponent.offset;
-				EntityManager d;
+				bool offsetEnable = entity.playerFollowComponent.offsetEnable;
+				
 				float horizontal = 0;
 				float vertical = 0;
-				if (offset == 0 || math.distance(position.xy, enemyPosition.xy) > offset)
+				if (!offsetEnable || math.distance(position.xy, enemyPosition.xy) > offset)
 				{
 					float2 result = math.normalize(position.xy - enemyPosition.xy);
 					horizontal = result.x;

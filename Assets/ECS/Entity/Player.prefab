@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lastUse: 0
-  duration: 2
+  duration: 7
   isCasting: 0
 --- !u!114 &7249822756983917279
 MonoBehaviour:
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canUse: 1
-  cooldown: 10
+  cooldown: 15
   last: -3.4028235e+38
 --- !u!1 &2397181684554581287
 GameObject:
@@ -399,6 +399,7 @@ GameObject:
   - component: {fileID: 4537550300344545520}
   - component: {fileID: 1192269710}
   - component: {fileID: 1192269728}
+  - component: {fileID: 3422135428190483346}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -498,7 +499,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 30
   health: 30
-  test: 0
 --- !u!114 &4537550301205900981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,7 +531,7 @@ MonoBehaviour:
       z: 0
       w: 0
   horizontal: 0
-  speed: 3
+  speed: 4
   vertical: 0
 --- !u!50 &1504936344
 Rigidbody2D:
@@ -687,6 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 4233842988298983944}
   attackAnimation: Fight
+  isAnimationNeeded: 0
 --- !u!114 &1504936355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,6 +764,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDamageDeal: 0
+--- !u!114 &3422135428190483346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4537550301205900984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f205daa57e6c48fa8f0e9b3a36c027f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDie: 0
+  isDeathNeed: 0
 --- !u!1 &5194754759944908590
 GameObject:
   m_ObjectHideFlags: 0

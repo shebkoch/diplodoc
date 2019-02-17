@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 789327703125161020}
   - component: {fileID: 789327703125161021}
   - component: {fileID: 789327703125161011}
+  - component: {fileID: 3574961662240010717}
   m_Layer: 0
   m_Name: rangedPick
   m_TagString: Untagged
@@ -185,7 +186,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 0
   health: 1
-  test: 0
 --- !u!114 &789327703125161021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,6 +211,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3574961662240010717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789327703125160996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f205daa57e6c48fa8f0e9b3a36c027f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDie: 0
+  isDeathNeed: 0
 --- !u!1 &789327704445713829
 GameObject:
   m_ObjectHideFlags: 0

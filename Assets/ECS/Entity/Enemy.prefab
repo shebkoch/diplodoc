@@ -307,6 +307,7 @@ GameObject:
   - component: {fileID: 2443952222725637239}
   - component: {fileID: 2711692235360690482}
   - component: {fileID: 6096882355161098965}
+  - component: {fileID: 127245025960405089}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -402,8 +403,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94abc56d8984685b3cf61470a08a55a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 0
   health: 3
-  test: 0
 --- !u!114 &5634784867059586715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -450,6 +451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b48ffc855443aca228aa8e4089c021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offsetEnable: 0
   offset: 0
 --- !u!114 &3518935308035572437
 MonoBehaviour:
@@ -590,6 +592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 2128709155214863803}
   attackAnimation: Fight
+  isAnimationNeeded: 0
 --- !u!114 &2711692235360690482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -616,3 +619,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invokeTime: 0.1
+--- !u!114 &127245025960405089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4329644765918881875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f205daa57e6c48fa8f0e9b3a36c027f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDie: 0
+  isDeathNeed: 0

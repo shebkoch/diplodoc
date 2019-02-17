@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Statistic">
+    <option name="fileTypes" value="class;svn-base;svn-work;Extra;gif;png;jpg;jpeg;bmp;tga;tiff;ear;war;zip;jar;iml;iws;ipr;bz2;gz;prefab;meta;user;sln;csproj;" />
+    <option name="separateTabsFileTypes" value="java;xml;css;html;js;properties;jsp;txt;php;php4;php5;phtml;inc;py;cs" />
+    <option name="excludeDotArtifactDirectory" value="true" />
+    <option name="excludedDirectories">
+      <list>
+        <option value="$PROJECT_DIR$/Library" />
+        <option value="$PROJECT_DIR$/Logs" />
+        <option value="$PROJECT_DIR$/obj" />
+        <option value="$PROJECT_DIR$/Packages" />
+        <option value="$PROJECT_DIR$/ProjectSettings" />
+        <option value="$PROJECT_DIR$/Temp" />
+        <option value="$PROJECT_DIR$/.idea" />
+        <option value="$PROJECT_DIR$/Assets/Plugins" />
+        <option value="$PROJECT_DIR$/Assets/Scenes" />
+        <option value="$PROJECT_DIR$/Assets/Sprites" />
+      </list>
+    </option>
+  </component>
+</project>

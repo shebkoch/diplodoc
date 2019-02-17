@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Sasha\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Sasha\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_diplodoc.-1641308279.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Sasha\Documents\Projects\diplodoc" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="CompassStudio" t="Include">
+          <e p="1690+ RPG Icons" t="Include">
+            <e p="readMe.txt" t="Include" />
+          </e>
+        </e>
+        <e p="ECS" t="Include">
+          <e p="Component" t="Include">
+            <e p="Artifacts" t="Include">
+              <e p="Common" t="Include">
+                <e p="ArtifactUsingComponent.cs" t="Include" />
+              </e>
+              <e p="StoneGazeArtifact.cs" t="Include" />
+            </e>
+            <e p="Collision" t="Include">
+              <e p="MapComponent.cs" t="Include" />
+              <e p="TestCollisionComponent.cs" t="Include" />
+            </e>
+            <e p="CooldownComponent.cs" t="Include" />
+            <e p="Creatures" t="Include">
+              <e p="AnimatorComponent.cs" t="Include" />
+              <e p="MovingComponent.cs" t="Include" />
+              <e p="ParametersComponent.cs" t="Include" />
+              <e p="RotationComponent.cs" t="Include" />
+            </e>
+            <e p="Damage" t="Include">
+              <e p="DamageComponent.cs" t="Include" />
+              <e p="DeathComponent.cs" t="Include" />
+              <e p="HybridDeathComponent.cs" t="Include" />
+              <e p="MeleeAttackComponent.cs" t="Include" />
+              <e p="MeleeWeaponComponent.cs" t="Include" />
+              <e p="RangedAttackComponent.cs" t="Include" />
+              <e p="RangedWeaponComponent.cs" t="Include" />
+            </e>
+            <e p="Flags" t="Include">
+              <e p="EnemyComponent.cs" t="Include" />
+              <e p="PlayerBulletComponent.cs" t="Include" />
+              <e p="PlayerComponent.cs" t="Include" />
+            </e>
+            <e p="Items" t="Include">
+              <e p="PickUpMeleeComponent.cs" t="Include" />
+              <e p="PickUpRangedComponent.cs" t="Include" />
+            </e>
+            <e p="Relations" t="Include">
+              <e p="CollisionComponent.cs" t="Include" />
+              <e p="CreatureTransformComponent.cs" t="Include" />
+              <e p="PlayerFollowComponent.cs" t="Include" />
+              <e p="PlayerFollowOffsetComponent.cs" t="Include" />
+            </e>
+            <e p="Settings" t="Include">
+              <e p="InputAttackComponent.cs" t="Include" />
+              <e p="InputMouseComponent.cs" t="Include" />
+              <e p="InputMovementComponent.cs" t="Include" />
+              <e p="InputUseComponent.cs" t="Include" />
+              <e p="MouseSettingsComponent.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="UIArtifactCooldownComponent.cs" t="Include" />
+              <e p="UIBulletComponent.cs" t="Include" />
+              <e p="UIHealthComponent.cs" t="Include" />
+            </e>
+          </e>
+          <e p="system" t="Include">
+            <e p="AnimationSystem.cs" t="Include" />
+            <e p="Artifacts" t="Include">
+              <e p="StoneGazeArtifactSystem.cs" t="Include" />
+            </e>
+            <e p="BulletSystem.cs" t="Include" />
+            <e p="Colision" t="Include">
+              <e p="MapRoundSystem.cs" t="Include" />
+              <e p="ObstacelTestPosition.cs" t="Include" />
+              <e p="TestCollisionSystem.cs" t="Include" />
+            </e>
+            <e p="CooldownSystem.cs" t="Include" />
+            <e p="DamageSystem.cs" t="Include" />
+            <e p="DeathSystem.cs" t="Include" />
+            <e p="Input" t="Include">
+              <e p="InputSystem.cs" t="Include" />
+              <e p="PlayerAttackInputSystem.cs" t="Include" />
+              <e p="PlayerInputSystem.cs" t="Include" />
+              <e p="PlayerUseSystem.cs" t="Include" />
+            </e>
+            <e p="Items" t="Include">
+              <e p="_PickUpSystem.cs" t="Include" />
+              <e p="PickUpMeleeSystem.cs" t="Include" />
+              <e p="PickUpRangedSystem.cs" t="Include" />
+            </e>
+            <e p="MeleeAttackSystem.cs" t="Include" />
+            <e p="MouseControllerSystem.cs" t="Include" />
+            <e p="MovingSystem.cs" t="Include" />
+            <e p="RangedAttackSystem.cs" t="Include" />
+            <e p="RecieveDamageSystem.cs" t="Include" />
+            <e p="Relations" t="Include">
+              <e p="PlayerFollowSystem.cs" t="Include" />
+            </e>
+            <e p="RotationSystem.cs" t="Include" />
+            <e p="СreatureDeathSystem.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="DictionaryExtensions.cs" t="Include" />
+          <e p="MapGeneration" t="Include">
+            <e p="MapGeneration.cs" t="Include" />
+            <e p="MapGeneration2.cs" t="Include" />
+            <e p="Room.cs" t="Include" />
+            <e p="Triangle.cs" t="Include" />
+          </e>
+          <e p="Spawner.cs" t="Include" />
+          <e p="Structures" t="Include">
+            <e p="Artefact.cs" t="Include" />
+            <e p="entity4.cs" t="Include" />
+            <e p="MeleeWeapon.cs" t="Include" />
+            <e p="RangedWeapon.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="UIArtifactCooldown.cs" t="Include" />
+            <e p="UIBullet.cs" t="Include" />
+            <e p="UIHealth.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="diplodoc.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

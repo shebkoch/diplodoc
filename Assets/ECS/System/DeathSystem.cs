@@ -9,23 +9,26 @@ namespace ECS.System
 	{
 		protected struct Parameters
 		{
-			public ParametersComponent parametersComponent;
-			public HybridDeathComponent deathComponent;
+			public DeathComponent deathComponent;
+			public HybridDeathComponent hybridDeathComponent;
 		}
 
 		protected override void OnUpdate()
 		{
 			foreach (Parameters entity in GetEntities<Parameters>())
 			{
-				int health = entity.parametersComponent.health;
+				bool isDeathNeed = entity.deathComponent.isDeathNeed;
+				bool isDie = entity.deathComponent.isDie;
 
-				if (health <= 0)
-				{
-					PostUpdateCommands.DestroyEntity(entity.parametersComponent.gameObject.GetComponent<GameObjectEntity>().Entity);
-					//ECS
-					entity.deathComponent.DelayedDeath();
-					//entity.parametersComponent.gameObject.SetActive(false);
-				}
+				if (isDie || !isDeathNeed) continue;
+
+				entity.deathComponent.isDie = true;
+				entity.deathComponent.isDeathNeed = false;
+				
+				PostUpdateCommands.DestroyEntity(entity.hybridDeathComponent.entity);
+				//ECS
+				entity.hybridDeathComponent.DelayedDeath();
+				
 			}
 		}
 	}

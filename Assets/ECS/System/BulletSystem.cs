@@ -12,7 +12,7 @@ namespace ECS.System
 		{
 			public PlayerBulletComponent bulletComponent;
 			public CollisionComponent collisionComponent;
-			public ParametersComponent parametersComponent;
+			public DeathComponent deathComponent;
 		}
 
 		protected override void OnUpdate()
@@ -34,7 +34,7 @@ namespace ECS.System
 						collision.Key.collisions.Remove(entity.collisionComponent);
 					}
 
-					entity.parametersComponent.health = 0;
+					entity.deathComponent.isDeathNeed = true;
 				}
 			}
 		}

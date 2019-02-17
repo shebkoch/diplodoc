@@ -17,25 +17,15 @@ namespace ECS.System
 		{
 			foreach (Enemy entity in GetEntities<Enemy>())
 			{
-				var recieveFrom = entity.collisionComponent.receivedDamageFrom;
+				var receiveFrom = entity.collisionComponent.receivedDamageFrom;
 
 				for (var i = 0; i < entity.collisionComponent.enterList.Count; i++)
 				{
 					var collision = entity.collisionComponent.enterList[i];
-					if (collision.type == recieveFrom && collision.isEnable)
+					if (collision.type == receiveFrom && collision.isEnable)
 					{
 						entity.damageComponent.isDamageDeal = true;
 						entity.collisionComponent.enterList.Remove(collision);
-					}
-				}
-
-				foreach (var collision in entity.collisionComponent.collisions)
-				{
-					if (collision.Value == CollisionState.Enter  &&
-					    collision.Key.type == recieveFrom &&
-					    collision.Key.isEnable)
-					{
-						
 					}
 				}
 			}

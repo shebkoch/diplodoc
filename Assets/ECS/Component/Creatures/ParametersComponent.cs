@@ -6,6 +6,5 @@ namespace ECS.Component
 	{
 		public int maxHealth;
 		public int health;
-		public float test;
 	}
 }

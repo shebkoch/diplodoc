@@ -22,20 +22,19 @@ namespace ECS.System
 				MeleeWeapon weapon = entity.meleeWeaponComponent.meleeWeapon;
 				bool isAttackNeed = entity.meleeAttackComponent.isAttackNeed;
 				float currentTime = Time.realtimeSinceStartup;
-				string attackAnimation = entity.animator.attackAnimation;
-				
+				bool isAnimationNeeded = entity.animator.isAnimationNeeded;				
 				bool enabled = false;
 
 				if (isAttackNeed && weapon.lastAttack + weapon.cooldown <= currentTime)
 				{
 					enabled = true;
 					weapon.lastAttack = currentTime;
-					entity.animator.animator.Play(attackAnimation);
+					isAnimationNeeded = true;
 				}
 
 				entity.meleeWeaponComponent.meleeWeapon = weapon;
 				entity.meleeAttackComponent.weaponCollider.enabled = enabled;
-				
+				entity.animator.isAnimationNeeded = isAnimationNeeded;
 			}
 		}
 

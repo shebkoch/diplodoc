@@ -14,19 +14,31 @@ namespace ECS.System
 		}
 		protected struct Artifact
 		{
+			public ArtifactComponent artifactComponent;
 			public ArtifactUsingComponent artifactUsingComponent;
 		}
 		
 		protected override void OnUpdate()
 		{
-			bool useButtonDown = false;
+			bool use1ButtonDown = false;
+			bool use2ButtonDown = false;
 			foreach (Input entity in GetEntities<Input>())
 			{
-				useButtonDown = entity.inputUseComponent.useButtonDown;
+				use1ButtonDown = entity.inputUseComponent.use1ButtonDown;
+				use2ButtonDown = entity.inputUseComponent.use2ButtonDown;
 			}
 			foreach (Artifact entity in GetEntities<Artifact>())
 			{
-				entity.artifactUsingComponent.isCastNeeded = useButtonDown;
+				byte id = entity.artifactComponent.id;
+				if (id == 0)
+				{
+					entity.artifactUsingComponent.isCastNeeded = use1ButtonDown;	
+				}
+				else if(id == 1)
+				{
+					entity.artifactUsingComponent.isCastNeeded = use2ButtonDown;
+				}
+				
 			}
 		}
 

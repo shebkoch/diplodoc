@@ -35,13 +35,15 @@ namespace ECS.System
 				
 				float horizontal = 0;
 				float vertical = 0;
-				if (!offsetEnable || math.distance(position.xy, enemyPosition.xy) > offset)
+				float distance = math.distance(position.xy, enemyPosition.xy);
+				if (!offsetEnable || distance > offset)
 				{
 					float2 result = math.normalize(position.xy - enemyPosition.xy);
 					horizontal = result.x;
 					vertical = result.y;
 				}
 
+				entity.playerFollowComponent.distanceToPlayer = distance;
 				entity.movingComponent.vertical = vertical;
 				entity.movingComponent.horizontal = horizontal;
 			}

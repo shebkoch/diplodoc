@@ -63,7 +63,7 @@ namespace ECS.System.Artifacts
 			{
 				entity.cooldownComponent.canUse = enable;
 				if(lastUse != 0)
-					entity.cooldownComponent.last = lastUse;
+					entity.cooldownComponent.isReloadNeeded = true;
 			}
 
 			

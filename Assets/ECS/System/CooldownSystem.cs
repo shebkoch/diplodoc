@@ -16,11 +16,20 @@ namespace ECS.System
 		{
 			foreach (Cooldown entity in GetEntities<Cooldown>())
 			{
+				bool isReloadNeeded = entity.cooldownComponent.isReloadNeeded;
 				bool canUse = entity.cooldownComponent.canUse;
 				float cooldown = entity.cooldownComponent.cooldown;
 				float last = entity.cooldownComponent.last;
 				float currentTime = Time.realtimeSinceStartup;
 
+				if (isReloadNeeded)
+				{
+					last = currentTime;
+					entity.cooldownComponent.last = last;
+					entity.cooldownComponent.isReloadNeeded = false;
+					entity.cooldownComponent.canUse = false;
+				}
+				
 				if (canUse || last + cooldown > currentTime) continue;
 
 				entity.cooldownComponent.canUse = true;

@@ -27,7 +27,7 @@ namespace DefaultNamespace.MapGeneration
 			for (var i = 0; i < innerBoundSize; i++) PlotBound(i, map - i);
 
 			for (var i = 0; i < outerBoundSize; i++) PlotBound(-i, map + i);
-			var rand = new Random((uint) DateTime.Now.Ticks);
+			var rand = Rand.GetRandom();
 
 			for (var i = 0; i < triangleCount * 3; i++) points.Add(rand.NextInt2(map));
 

@@ -4,6 +4,7 @@ namespace ECS.Component
 {
 	public class InputUseComponent : MonoBehaviour
 	{
-		public bool useButtonDown;
+		public bool use1ButtonDown;
+		public bool use2ButtonDown;
 	}
 }

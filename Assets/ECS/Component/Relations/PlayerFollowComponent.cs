@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 
 namespace ECS.Component
@@ -6,5 +7,6 @@ namespace ECS.Component
 	{
 		public float offset;
 		public bool offsetEnable;
+		public float distanceToPlayer;
 	}
 }

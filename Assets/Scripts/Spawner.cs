@@ -15,7 +15,7 @@ namespace DefaultNamespace
 		{
 			foreach (var prefab in prefabs)
 				for (var i = 0; i < prefab.count; i++)
-					Instantiate(prefab.gameObject, offset + Random.insideUnitSphere * radius, Quaternion.identity);
+					Instantiate(prefab.gameObject, offset + Random.insideUnitSphere * radius, Quaternion.identity,transform);
 		}
 	}
 

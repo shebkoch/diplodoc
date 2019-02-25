@@ -4,6 +4,6 @@ namespace ECS.Component
 {
 	public class RotationComponent : MonoBehaviour
 	{
-		public bool isEnable;
+		public bool isEnable = true;
 	}
 }

@@ -6,5 +6,6 @@ namespace Unity.Entities
 	public class UIArtifactCooldownComponent : MonoBehaviour
 	{
 		public Image cooldownImage;
+		public byte id;
 	}
 }

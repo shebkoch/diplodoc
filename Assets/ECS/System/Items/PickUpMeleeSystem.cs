@@ -28,7 +28,5 @@ namespace ECS.System.Items
 				entity.pickUpMeleeComponent.isUsed = true;
 			}
 		}
-
-
 	}
 }

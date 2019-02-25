@@ -7,5 +7,6 @@ namespace ECS.Component
 		public bool canUse;
 		public float cooldown;
 		public float last = float.MinValue;
+		public bool isReloadNeeded;
 	}
 }

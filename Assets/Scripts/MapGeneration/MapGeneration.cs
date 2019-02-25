@@ -19,7 +19,7 @@ namespace DefaultNamespace.MapGeneration
 		public int minHeight = 10;
 		public int minWidth = 10;
 
-		private Random rand = new Random((uint) DateTime.Now.Ticks);
+		private Random rand = Rand.GetRandom();
 		public List<Room> rooms = new List<Room>();
 		public int roomsCount;
 

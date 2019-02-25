@@ -26,7 +26,8 @@ namespace ECS.System
 				float horizontal = Input.GetAxis(horizontalAxisName);
 				float vertical = Input.GetAxis(verticalAxisName);
 
-				bool useButtonDown = Input.GetKey(KeyCode.Space);
+				bool use1ButtonDown = Input.GetKey(KeyCode.Alpha1);
+				bool use2ButtonDown = Input.GetKey(KeyCode.Alpha2);
 				float3 mousePosition = Input.mousePosition;
 				mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 				mousePosition.z = 0;
@@ -49,7 +50,8 @@ namespace ECS.System
 				entity.inputMouse.rightState = rightState;
 				entity.inputMouse.holdTime = holdTime;
 				entity.inputMouse.startHold = startHold;
-				entity.inputUseComponent.useButtonDown = useButtonDown;
+				entity.inputUseComponent.use1ButtonDown = use1ButtonDown;
+				entity.inputUseComponent.use2ButtonDown = use2ButtonDown;
 			}
 		}
 	}

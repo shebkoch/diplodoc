@@ -4,157 +4,23 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c0ca74-2c0c-406f-a85c-7d83bec8994f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/AroundShotPassiveArtifact.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/AroundShotPassiveArtifact.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/ArthurStoneArtifact.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/ArthurStoneArtifact.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/DefenderArtifact.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/DefenderArtifact.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/PlayerDefenderComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/PlayerDefenderComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/PlayerDefenderSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/PlayerDefenderSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactsPoolComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactsPoolComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/HasteArtifact.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/HasteArtifact.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/HpRegenArtifact.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/HpRegenArtifact.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/LuckArtifact.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/LuckArtifact.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/PhaseArtifact.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/PhaseArtifact.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/RegenByShotArtifact.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/RegenByShotArtifact.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/SlowDownArtifact.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/SlowDownArtifact.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/ChanceArtifactComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/ChanceArtifactComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/ChanceByHpLoseComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/ChanceByHpLoseComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/RadiusComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/RadiusComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Collision/CollisionComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Collision/CollisionComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/DurationComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/DurationComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Enemy/ExplodeEnemyComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Enemy/ExplodeEnemyComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Flags/CameraComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Flags/CameraComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Items/PickUpComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Items/PickUpComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Stats.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Stats/PlayerParametersStatComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Stats/PlayerParametersStatComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/AroundShotSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/AroundShotSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/ArthurStoneSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/ArthurStoneSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/DefenderArtifactSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/DefenderArtifactSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/DefenderDieSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/DefenderDieSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/PlayerDefenderSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/PlayerDefenderSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/HasteArtifactSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/HasteArtifactSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/HpRegenArtifactSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/HpRegenArtifactSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/LuckArtifactSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/LuckArtifactSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/PhaseArtifactSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/PhaseArtifactSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/StartArtifactDistributionSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/StartArtifactDistributionSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ActiveArtifactCooldownSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ActiveArtifactCooldownSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ChanceByHpLoseSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ChanceByHpLoseSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Colision/CollisionSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/DurationComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/DurationComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Enemy/ExplodeEnemySystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Stats.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Stats/PlayerParametersStatSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Stats/PlayerParametersStatSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Boot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Boot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Rand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Rand.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIShowArtifacts.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIShowArtifacts.cs.meta" afterDir="false" />
+    <list default="true" id="08c0ca74-2c0c-406f-a85c-7d83bec8994f" name="Default Changelist" comment="_backup">
+      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/ModifierComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/ModifierComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/SpeedChangeModifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/SpeedChangeModifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/StunModifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/StunModifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers/ModifierSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers/ModifierSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModifierSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModifierSystem.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.diplodoc/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.diplodoc/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.diplodoc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.diplodoc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerFight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerFight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactUsingComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactUsingComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Component/Collision/TestCollisionComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Component/Collision/TestCollisionComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Component/CooldownComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Component/CooldownComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Component/Creatures/RotationComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Component/Creatures/RotationComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Component/Relations/CollisionComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Component/Relations/CollisionComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Component/Relations/PlayerFollowComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Component/Relations/PlayerFollowComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Component/Settings/InputUseComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Component/Settings/InputUseComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Component/UI/UIArtifactCooldownComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Component/UI/UIArtifactCooldownComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/Weapons/slow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/Weapons/slow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/bullet Variant Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/bullet Variant Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/bullet Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/bullet Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject Variant 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject Variant 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject Variant 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject Variant 3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject Variant 4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject Variant 4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject Variant 5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject Variant 5.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject Variant 7.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject Variant 7.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/walls/GameObject.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/StoneGazeArtifactSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/StoneGazeArtifactSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/BulletSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/BulletSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Colision/MapRoundSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Colision/MapRoundSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Colision/ObstacelTestPosition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Colision/ObstacelTestPosition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Colision/TestCollisionSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Colision/TestCollisionSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/CooldownSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/CooldownSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Input/InputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Input/InputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Input/PlayerUseSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Input/PlayerUseSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Items/PickUpMeleeSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Items/PickUpMeleeSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Items/_PickUpSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Items/PickUpSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Items/_PickUpSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Items/PickUpSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Modificators.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Modificators/StunModificatorDrawing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModificatorDrawing.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Modificators/StunModificatorDrawing.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModificatorDrawing.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Modificators/StunModificatorSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModificatorSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Modificators/StunModificatorSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModificatorSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/RecieveDamageSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/RecieveDamageSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Relations/PlayerFollowSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Relations/PlayerFollowSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapGeneration/MapGeneration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapGeneration/MapGeneration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapGeneration/MapGeneration2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapGeneration/MapGeneration2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIArtifactCooldown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIArtifactCooldown.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/MovingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/MovingSystem.cs" afterDir="false" />
     </list>
     <ignored path=".idea/.idea.diplodoc/.idea/" />
     <ignored path="Assets/CompassStudio/1690+ RPG Icons/Demo/Demo.unity" />
@@ -3565,70 +3431,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Boot.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="62">
+              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding>
-                <marker date="1551011983180" expanded="true" signature="6:121" ph="..." />
-                <marker date="1551011983180" expanded="true" signature="149:460" ph="{...}" />
-                <marker date="1551011983180" expanded="true" signature="186:458" ph="{...}" />
-                <marker date="1551011983180" expanded="true" signature="213:455" ph="{...}" />
-                <marker date="1551011983180" expanded="true" signature="249:451" ph="{...}" />
+                <marker date="1551068136926" expanded="false" signature="6:155" ph="..." />
+                <marker date="1551068136926" expanded="true" signature="187:1800" ph="{...}" />
+                <marker date="1551068136926" expanded="true" signature="267:1798" ph="{...}" />
+                <marker date="1551068136926" expanded="true" signature="298:545" ph="{...}" />
+                <marker date="1551068136926" expanded="true" signature="570:717" ph="{...}" />
+                <marker date="1551068136926" expanded="true" signature="755:1795" ph="{...}" />
+                <marker date="1551068136926" expanded="true" signature="882:1452" ph="{...}" />
+                <marker date="1551068136926" expanded="true" signature="1151:1226" ph="{...}" />
+                <marker date="1551068136926" expanded="true" signature="1242:1402" ph="{...}" />
+                <marker date="1551068136926" expanded="true" signature="1531:1791" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/PhaseArtifactSystem.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/ModifierComponent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+            <state relative-caret-position="255">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
-                <marker date="1551010946235" expanded="false" signature="6:193" ph="..." />
-                <marker date="1551010946235" expanded="true" signature="225:1401" ph="{...}" />
-                <marker date="1551010946235" expanded="true" signature="279:1399" ph="{...}" />
-                <marker date="1551010946235" expanded="true" signature="310:461" ph="{...}" />
-                <marker date="1551010946235" expanded="true" signature="487:572" ph="{...}" />
-                <marker date="1551010946235" expanded="true" signature="610:1396" ph="{...}" />
-                <marker date="1551010946235" expanded="true" signature="732:1249" ph="{...}" />
-                <marker date="1551010946235" expanded="true" signature="907:1098" ph="{...}" />
-                <marker date="1551010946235" expanded="true" signature="1112:1197" ph="{...}" />
-                <marker date="1551010946235" expanded="true" signature="1274:1392" ph="{...}" />
-                <marker date="1551010946235" expanded="true" signature="1329:1387" ph="{...}" />
+                <marker date="1551360544173" expanded="false" signature="6:43" ph="..." />
+                <marker date="1551360544173" expanded="true" signature="100:316" ph="{...}" />
+                <marker date="1551360544173" expanded="true" signature="150:245" ph="{...}" />
+                <marker date="1551360544173" expanded="true" signature="272:312" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/LuckArtifact.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/StunModifier.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding>
-                <marker date="1551011229409" expanded="false" signature="6:43" ph="..." />
-                <marker date="1551011229409" expanded="true" signature="78:152" ph="{...}" />
-                <marker date="1551011229409" expanded="true" signature="123:150" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/LuckArtifactSystem.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding>
-                <marker date="1551012329694" expanded="false" signature="6:155" ph="..." />
-                <marker date="1551012329694" expanded="true" signature="187:867" ph="{...}" />
-                <marker date="1551012329694" expanded="true" signature="240:865" ph="{...}" />
-                <marker date="1551012329694" expanded="true" signature="271:316" ph="{...}" />
-                <marker date="1551012329694" expanded="true" signature="352:466" ph="{...}" />
-                <marker date="1551012329694" expanded="true" signature="504:862" ph="{...}" />
-                <marker date="1551012329694" expanded="true" signature="693:838" ph="{...}" />
+                <marker date="1551356709209" expanded="false" signature="6:43" ph="..." />
+                <marker date="1551356709209" expanded="true" signature="78:157" ph="{...}" />
+                <marker date="1551356709209" expanded="true" signature="123:155" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -3648,79 +3494,94 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-              <folding>
-                <marker date="1551016119876" expanded="false" signature="6:155" ph="..." />
-                <marker date="1551016119876" expanded="true" signature="187:1820" ph="{...}" />
-                <marker date="1551016119876" expanded="true" signature="267:1818" ph="{...}" />
-                <marker date="1551016119876" expanded="true" signature="298:545" ph="{...}" />
-                <marker date="1551016119876" expanded="true" signature="570:717" ph="{...}" />
-                <marker date="1551016119876" expanded="true" signature="755:1815" ph="{...}" />
-                <marker date="1551016119876" expanded="true" signature="906:1472" ph="{...}" />
-                <marker date="1551016119876" expanded="true" signature="1171:1246" ph="{...}" />
-                <marker date="1551016119876" expanded="true" signature="1262:1422" ph="{...}" />
-                <marker date="1551016119876" expanded="true" signature="1551:1811" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/DurationComponent.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/StoneGazeArtifact.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
-                <marker date="1551007507458" expanded="true" signature="43:214" ph="{...}" />
-                <marker date="1551007507458" expanded="true" signature="93:212" ph="{...}" />
+                <marker date="1550403082572" expanded="true" signature="53:159" ph="{...}" />
+                <marker date="1550403082572" expanded="true" signature="103:157" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/RadiusComponent.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modificators/StunModificatorComponent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <marker date="1550398323672" expanded="false" signature="6:40" ph="..." />
+                <marker date="1550398323672" expanded="true" signature="68:259" ph="{...}" />
+                <marker date="1550398323672" expanded="true" signature="125:257" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModifierSystem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <marker date="1551359258370" expanded="true" signature="6:131" ph="..." />
+                <marker date="1551359258370" expanded="true" signature="159:1114" ph="{...}" />
+                <marker date="1551359258370" expanded="true" signature="251:1112" ph="{...}" />
+                <marker date="1551359258370" expanded="true" signature="279:367" ph="{...}" />
+                <marker date="1551359258370" expanded="true" signature="395:450" ph="{...}" />
+                <marker date="1551359258370" expanded="true" signature="493:1109" ph="{...}" />
+                <marker date="1551359258370" expanded="true" signature="716:1105" ph="{...}" />
+                <marker date="1551359258370" expanded="true" signature="801:1100" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/ModifierSystem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <marker date="1551357728506" expanded="true" signature="6:131" ph="..." />
+                <marker date="1551357728506" expanded="true" signature="159:1375" ph="{...}" />
+                <marker date="1551357728506" expanded="true" signature="208:1373" ph="{...}" />
+                <marker date="1551357728506" expanded="true" signature="239:341" ph="{...}" />
+                <marker date="1551357728506" expanded="true" signature="379:1370" ph="{...}" />
+                <marker date="1551357728506" expanded="true" signature="439:1366" ph="{...}" />
+                <marker date="1551357728506" expanded="true" signature="671:1231" ph="{...}" />
+                <marker date="1551357728506" expanded="true" signature="1008:1144" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="25" />
               <folding>
-                <marker date="1551012464079" expanded="false" signature="6:43" ph="..." />
-                <marker date="1551012464079" expanded="true" signature="78:157" ph="{...}" />
-                <marker date="1551012464079" expanded="true" signature="126:155" ph="{...}" />
+                <marker date="1551355342739" expanded="false" signature="6:43" ph="..." />
+                <marker date="1551355342739" expanded="true" signature="78:154" ph="{...}" />
+                <marker date="1551355342739" expanded="true" signature="125:152" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactUsingComponent.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/SpeedChangeModifier.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="136">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
-                <marker date="1551002931491" expanded="true" signature="60:173" ph="{...}" />
-                <marker date="1551002931491" expanded="true" signature="115:171" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ActiveArtifactCooldownSystem.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-              <folding>
-                <marker date="1551008019006" expanded="false" signature="6:124" ph="..." />
-                <marker date="1551008019006" expanded="true" signature="156:691" ph="{...}" />
-                <marker date="1551008019006" expanded="true" signature="219:689" ph="{...}" />
-                <marker date="1551008019006" expanded="true" signature="250:362" ph="{...}" />
-                <marker date="1551008019006" expanded="true" signature="400:686" ph="{...}" />
-                <marker date="1551008019006" expanded="true" signature="460:682" ph="{...}" />
+                <marker date="1551361372156" expanded="false" signature="6:43" ph="..." />
+                <marker date="1551361372156" expanded="true" signature="78:164" ph="{...}" />
+                <marker date="1551361372156" expanded="true" signature="130:162" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -3757,6 +3618,7 @@
       <find>trs</find>
       <find>duration</find>
       <find>dura</find>
+      <find>foreach</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -3797,10 +3659,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8EA872B-C6C3-4547-B28C-904F5E42F85A/8a/ef58fcb4/Byte.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/ChanceArtifactComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactsPoolComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/SpeedChangeModifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8EA872B-C6C3-4547-B28C-904F5E42F85A/79/63bc8745/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/EntityArray.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Flags/CameraComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Entity/Artifacts/ActiveBasic.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/RegenByShotArtifact.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modificators/StunModificatorComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Entity/Player.prefab" root0="FORCE_HIGHLIGHTING" />
@@ -3849,6 +3713,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Items/PickUpRangedSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIShowArtifacts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/ArthurStoneArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/ModifierComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/StoneGazeArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Relations/PlayerFollowSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -3858,6 +3723,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.0.9-preview.10/Unity.Collections/NativeArraySOA.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/RadiusComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.0.9-preview.10/Unity.Collections/NativeList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModifierSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.0.9-preview.10/Unity.Collections/NativeArrayExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/PlayerDefenderSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/SlowDownArtifact.cs" root0="FORCE_HIGHLIGHTING" />
@@ -3885,6 +3751,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/InputAttackComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/InputMouseComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/MouseSettingsComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/StunModifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/InputMovementComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/InputUseComponent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -3910,26 +3777,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Relations/PlayerFollowComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapGeneration/Triangle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/float2x3.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/ModifierSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/1.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8EA872B-C6C3-4547-B28C-904F5E42F85A/c3/c9bab14c/Type.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/DefenderDieSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/DefenderArtifact.cs" />
-        <option value="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/DefenderArtifact.cs" />
-        <option value="$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/PlayerDefenderSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/ECS/Component/UI/UIArtifactCooldownComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactsPoolComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/ECS/System/Input/PlayerUseSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIArtifactCooldown.cs" />
-        <option value="$PROJECT_DIR$/Assets/ECS/System/StartArtifactDistributionSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIShowArtifacts.cs" />
-        <option value="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/RegenByShotArtifact.cs" />
-        <option value="$PROJECT_DIR$/Assets/ECS/System/Artifacts/RegenByShotArtifactSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/ChanceArtifactComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/System/Stats/PlayerParametersSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/System/Artifacts/ArroundShotSystem.cs" />
@@ -3942,7 +3796,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MapGeneration/MapGeneration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MapGeneration/MapGeneration2.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/Component/Stats/PlayerParametersStatComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/Component/Flags/CameraComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/AroundShotPassiveArtifact.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/ChanceByHpLoseComponent.cs" />
@@ -3967,6 +3820,21 @@
         <option value="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/RadiusComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/SlowDownArtifact.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TEST/Moving.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TEST/MovingPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/System/MovingSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TEST/Follow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TEST/MovingEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/System/Relations/PlayerFollowSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TEST/Class1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/System/Modifiers/NewFile1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/StunModifier.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/System/Modifiers/ModifierSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModifierSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/ModifierComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/ModifierIcon.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/SpeedChangeModifier.cs" />
       </list>
     </option>
   </component>
@@ -3994,6 +3862,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -4153,24 +4025,6 @@
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="MapGeneration" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Structures" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="UI" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Packages" type="4e2708dd:PackagesRoot" />
             </path>
           </expand>
@@ -4200,10 +4054,6 @@
           </expand>
           <select />
         </subPane>
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -4277,7 +4127,9 @@
       <workItem from="1550395416790" duration="15324000" />
       <workItem from="1550723555120" duration="12996000" />
       <workItem from="1550739808811" duration="40320000" />
-      <workItem from="1550995281729" duration="19207000" />
+      <workItem from="1550995281729" duration="19503000" />
+      <workItem from="1551337914418" duration="3777000" />
+      <workItem from="1551351889090" duration="9630000" />
     </task>
     <task id="LOCAL-00001" summary="simple moving">
       <created>1547996561709</created>
@@ -4314,11 +4166,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550412989689</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="_backup">
+      <created>1551068101039</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551068101039</updated>
+    </task>
+    <task id="LOCAL-00007" summary="_backup">
+      <created>1551068119652</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551068119653</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232290000" />
+    <option name="totallyTimeSpent" value="245993000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -4331,9 +4197,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32782516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33528784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -4458,419 +4323,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Damage/RangedWeaponComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1550397680923" expanded="false" signature="6:44" ph="..." />
-            <marker date="1550397680923" expanded="true" signature="69:191" ph="{...}" />
-            <marker date="1550397680923" expanded="true" signature="123:189" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Items/PickUpRangedSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <marker date="1550397819579" expanded="false" signature="6:139" ph="..." />
-            <marker date="1550397819579" expanded="true" signature="167:795" ph="{...}" />
-            <marker date="1550397819579" expanded="true" signature="220:793" ph="{...}" />
-            <marker date="1550397819579" expanded="true" signature="251:369" ph="{...}" />
-            <marker date="1550397819579" expanded="true" signature="407:788" ph="{...}" />
-            <marker date="1550397819579" expanded="true" signature="467:784" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/ArthurStoneArtifactSystem.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/RandomComponent.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/ArthurStoneArtifact.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <marker date="1550922507678" expanded="false" signature="6:43" ph="..." />
-            <marker date="1550922507678" expanded="true" signature="78:280" ph="{...}" />
-            <marker date="1550922507678" expanded="true" signature="130:278" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/RangedAttackSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-          <folding>
-            <marker date="1550407915492" expanded="false" signature="6:112" ph="..." />
-            <marker date="1550407915492" expanded="true" signature="134:2116" ph="{...}" />
-            <marker date="1550407915492" expanded="true" signature="187:2114" ph="{...}" />
-            <marker date="1550407915492" expanded="true" signature="218:367" ph="{...}" />
-            <marker date="1550407915492" expanded="true" signature="405:2111" ph="{...}" />
-            <marker date="1550407915492" expanded="true" signature="465:2107" ph="{...}" />
-            <marker date="1550407915492" expanded="true" signature="1568:1793" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/random.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="510" column="21" selection-start-line="510" selection-start-column="21" selection-end-line="510" selection-end-column="21" />
-          <folding>
-            <marker date="1536564765000" expanded="false" signature="6:115" ph="..." />
-            <marker date="1536564765000" expanded="true" signature="144:24913" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="151:449" ph="/// Random Number Generator based on xorshift. ... " />
-            <marker date="1536564765000" expanded="true" signature="501:24911" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="544:673" ph="/// Constructs a Random instance with a given seed value. The seed must be non-zero. ... " />
-            <marker date="1536564765000" expanded="true" signature="765:866" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="876:1021" ph="/// Initialized the state of the Random instance with a given seed value. The seed must be non-zero. ... " />
-            <marker date="1536564765000" expanded="true" signature="1135:1206" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="1367:1430" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="1594:1698" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="1862:1969" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="2133:2243" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="2444:2515" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="2738:2833" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="3056:3169" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="3392:3523" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="3713:3827" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="4041:4264" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="4478:4802" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="5016:5441" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="5642:5814" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="6040:6339" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="6565:6977" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="7203:7728" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="7921:7978" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="8194:8271" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="8487:8577" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="8793:8896" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="9091:9172" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="9390:9551" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="9769:10000" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="10218:10519" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="10725:10891" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="11122:11418" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="11649:12061" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="12292:12829" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="13016:13104" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="13314:13422" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="13632:13753" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="13963:14097" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="16376:16521" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="16734:17015" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="17228:17636" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="17849:18384" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="20732:20908" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="21128:21300" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="21517:21829" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="22049:22360" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="22573:23171" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="23264:23461" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="23557:23725" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="23825:24035" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="24139:24303" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="24419:24602" ph="{...}" />
-            <marker date="1536564765000" expanded="true" signature="24721:24904" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <marker date="1550924905351" expanded="true" signature="6:54" ph="..." />
-            <marker date="1550924905351" expanded="true" signature="82:211" ph="{...}" />
-            <marker date="1550924905351" expanded="true" signature="110:209" ph="{...}" />
-            <marker date="1550924905351" expanded="true" signature="148:205" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/ArthurStoneSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <marker date="1550924931351" expanded="false" signature="6:141" ph="..." />
-            <marker date="1550924931351" expanded="true" signature="173:1153" ph="{...}" />
-            <marker date="1550924931351" expanded="true" signature="248:1151" ph="{...}" />
-            <marker date="1550924931351" expanded="true" signature="279:338" ph="{...}" />
-            <marker date="1550924931351" expanded="true" signature="364:446" ph="{...}" />
-            <marker date="1550924931351" expanded="true" signature="484:1148" ph="{...}" />
-            <marker date="1550924931351" expanded="true" signature="573:1010" ph="{...}" />
-            <marker date="1550924931351" expanded="true" signature="1060:1124" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/HpRegenArtifactSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="67" />
-          <folding>
-            <marker date="1551008019171" expanded="false" signature="6:155" ph="..." />
-            <marker date="1551008019171" expanded="true" signature="187:1079" ph="{...}" />
-            <marker date="1551008019171" expanded="true" signature="243:1077" ph="{...}" />
-            <marker date="1551008019171" expanded="true" signature="272:427" ph="{...}" />
-            <marker date="1551008019171" expanded="true" signature="453:555" ph="{...}" />
-            <marker date="1551008019171" expanded="true" signature="593:1074" ph="{...}" />
-            <marker date="1551008019171" expanded="true" signature="673:910" ph="{...}" />
-            <marker date="1551008019171" expanded="true" signature="840:905" ph="{...}" />
-            <marker date="1551008019171" expanded="true" signature="982:1070" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModificatorDrawing.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <marker date="1550401134743" expanded="false" signature="6:86" ph="..." />
-            <marker date="1550401134743" expanded="true" signature="114:500" ph="{...}" />
-            <marker date="1550401134743" expanded="true" signature="171:498" ph="{...}" />
-            <marker date="1550401134743" expanded="true" signature="205:274" ph="{...}" />
-            <marker date="1550401134743" expanded="true" signature="312:495" ph="{...}" />
-            <marker date="1550401134743" expanded="true" signature="378:491" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Stats/PlayerParametersStatComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <marker date="1550925004150" expanded="false" signature="6:77" ph="..." />
-            <marker date="1550925004150" expanded="true" signature="108:226" ph="{...}" />
-            <marker date="1550925004150" expanded="true" signature="170:224" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/PlayerDefenderSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <marker date="1550839727574" expanded="false" signature="6:122" ph="..." />
-            <marker date="1550839727574" expanded="true" signature="159:1302" ph="{...}" />
-            <marker date="1550839727574" expanded="true" signature="214:1300" ph="{...}" />
-            <marker date="1550839727574" expanded="true" signature="245:310" ph="{...}" />
-            <marker date="1550839727574" expanded="true" signature="338:460" ph="{...}" />
-            <marker date="1550839727574" expanded="true" signature="485:620" ph="{...}" />
-            <marker date="1550839727574" expanded="true" signature="657:1297" ph="{...}" />
-            <marker date="1550839727574" expanded="true" signature="883:1115" ph="{...}" />
-            <marker date="1550839727574" expanded="true" signature="1072:1110" ph="{...}" />
-            <marker date="1550839727574" expanded="true" signature="1175:1293" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MapGeneration/MapGeneration.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <marker date="1550924935169" expanded="false" signature="6:132" ph="..." />
-            <marker date="1550924935169" expanded="true" signature="174:1160" ph="{...}" />
-            <marker date="1550924935169" expanded="true" signature="220:1158" ph="{...}" />
-            <marker date="1550924935169" expanded="true" signature="560:894" ph="{...}" />
-            <marker date="1550924935169" expanded="true" signature="591:712" ph="{...}" />
-            <marker date="1550924935169" expanded="true" signature="918:1155" ph="{...}" />
-            <marker date="1550924935169" expanded="true" signature="1048:1151" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModificatorSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <marker date="1550405231309" expanded="false" signature="6:79" ph="..." />
-            <marker date="1550405231309" expanded="true" signature="107:1639" ph="{...}" />
-            <marker date="1550405231309" expanded="true" signature="207:1637" ph="{...}" />
-            <marker date="1550405231309" expanded="true" signature="241:310" ph="{...}" />
-            <marker date="1550405231309" expanded="true" signature="338:450" ph="{...}" />
-            <marker date="1550405231309" expanded="true" signature="486:602" ph="{...}" />
-            <marker date="1550405231309" expanded="true" signature="645:1630" ph="{...}" />
-            <marker date="1550405231309" expanded="true" signature="703:1215" ph="{...}" />
-            <marker date="1550405231309" expanded="true" signature="1267:1426" ph="{...}" />
-            <marker date="1550405231309" expanded="true" signature="1486:1622" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MapGeneration/MapGeneration2.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <marker date="1550924939529" expanded="false" signature="6:132" ph="..." />
-            <marker date="1550924939529" expanded="true" signature="174:5430" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="221:5428" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="444:510" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="534:1387" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="863:1016" ph="/* for (var i = 0; i &lt; points.Count; i++) ... */" />
-            <marker date="1550924939529" expanded="true" signature="1058:1362" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="1419:1870" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="1468:1866" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="1915:2818" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="2226:2516" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="2268:2365" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="2414:2511" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="2524:2814" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="2566:2663" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="2712:2809" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="2859:3517" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="3195:3316" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="3392:3513" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="3559:3760" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="3644:3756" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="3802:4081" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="3928:4077" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="4011:4051" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="4123:4365" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="4179:4265" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="4273:4361" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="4394:4421" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="4456:4526" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="4568:4734" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="4778:5079" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="4858:4895" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="4972:5075" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="5008:5052" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="5124:5425" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="5204:5241" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="5318:5421" ph="{...}" />
-            <marker date="1550924939529" expanded="true" signature="5354:5398" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Flags/PlayerBulletComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1550397680605" expanded="true" signature="43:144" ph="{...}" />
-            <marker date="1550397680605" expanded="true" signature="97:142" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modificators/StunModificatorComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1550398323672" expanded="false" signature="6:40" ph="..." />
-            <marker date="1550398323672" expanded="true" signature="68:259" ph="{...}" />
-            <marker date="1550398323672" expanded="true" signature="125:257" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1550998119368" expanded="false" signature="6:43" ph="..." />
-            <marker date="1550998119368" expanded="true" signature="78:175" ph="{...}" />
-            <marker date="1550998119368" expanded="true" signature="125:173" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Flags/CameraComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <marker date="1550998975132" expanded="false" signature="6:43" ph="..." />
-            <marker date="1550998975132" expanded="true" signature="68:148" ph="{...}" />
-            <marker date="1550998975132" expanded="true" signature="116:146" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/AroundShotSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <marker date="1550999029321" expanded="false" signature="6:247" ph="..." />
-            <marker date="1550999029321" expanded="true" signature="279:1521" ph="{...}" />
-            <marker date="1550999029321" expanded="true" signature="377:1519" ph="{...}" />
-            <marker date="1550999029321" expanded="true" signature="408:538" ph="{...}" />
-            <marker date="1550999029321" expanded="true" signature="564:646" ph="{...}" />
-            <marker date="1550999029321" expanded="true" signature="686:1516" ph="{...}" />
-            <marker date="1550999029321" expanded="true" signature="910:1512" ph="{...}" />
-            <marker date="1550999029321" expanded="true" signature="1065:1507" ph="{...}" />
-            <marker date="1550999029321" expanded="true" signature="1133:1501" ph="{...}" />
-            <marker date="1550999029321" expanded="true" signature="1176:1494" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ChanceByHpLoseSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-          <folding>
-            <marker date="1550999017888" expanded="true" signature="6:233" ph="..." />
-            <marker date="1550999017888" expanded="true" signature="265:1234" ph="{...}" />
-            <marker date="1550999017888" expanded="true" signature="371:1232" ph="{...}" />
-            <marker date="1550999017888" expanded="true" signature="402:528" ph="{...}" />
-            <marker date="1550999017888" expanded="true" signature="552:631" ph="{...}" />
-            <marker date="1550999017888" expanded="true" signature="671:1229" ph="{...}" />
-            <marker date="1550999017888" expanded="true" signature="911:1225" ph="{...}" />
-            <marker date="1550999017888" expanded="true" signature="1044:1159" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/HasteArtifact.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <marker date="1550999780406" expanded="false" signature="6:43" ph="..." />
-            <marker date="1550999780406" expanded="true" signature="78:178" ph="{...}" />
-            <marker date="1550999780406" expanded="true" signature="124:176" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/HasteArtifactSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="68" column="57" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="57" />
-          <folding>
-            <marker date="1551008019037" expanded="true" signature="6:180" ph="..." />
-            <marker date="1551008019037" expanded="true" signature="212:1879" ph="{...}" />
-            <marker date="1551008019037" expanded="true" signature="266:1877" ph="{...}" />
-            <marker date="1551008019037" expanded="true" signature="297:450" ph="{...}" />
-            <marker date="1551008019037" expanded="true" signature="476:570" ph="{...}" />
-            <marker date="1551008019037" expanded="true" signature="596:690" ph="{...}" />
-            <marker date="1551008019037" expanded="true" signature="727:1874" ph="{...}" />
-            <marker date="1551008019037" expanded="true" signature="869:1489" ph="{...}" />
-            <marker date="1551008019037" expanded="true" signature="1083:1260" ph="{...}" />
-            <marker date="1551008019037" expanded="true" signature="1156:1254" ph="{...}" />
-            <marker date="1551008019037" expanded="true" signature="1286:1375" ph="{...}" />
-            <marker date="1551008019037" expanded="true" signature="1571:1696" ph="{...}" />
-            <marker date="1551008019037" expanded="true" signature="1745:1870" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/ChanceByHpLoseComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -5102,39 +4554,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ActiveArtifactCooldownSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-          <folding>
-            <marker date="1551008019006" expanded="false" signature="6:124" ph="..." />
-            <marker date="1551008019006" expanded="true" signature="156:691" ph="{...}" />
-            <marker date="1551008019006" expanded="true" signature="219:689" ph="{...}" />
-            <marker date="1551008019006" expanded="true" signature="250:362" ph="{...}" />
-            <marker date="1551008019006" expanded="true" signature="400:686" ph="{...}" />
-            <marker date="1551008019006" expanded="true" signature="460:682" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/LuckArtifact.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <marker date="1551011229409" expanded="false" signature="6:43" ph="..." />
-            <marker date="1551011229409" expanded="true" signature="78:152" ph="{...}" />
-            <marker date="1551011229409" expanded="true" signature="123:150" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Boot.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <marker date="1551011983180" expanded="true" signature="6:121" ph="..." />
+            <marker date="1551011983180" expanded="false" signature="6:121" ph="..." />
             <marker date="1551011983180" expanded="true" signature="149:460" ph="{...}" />
             <marker date="1551011983180" expanded="true" signature="186:458" ph="{...}" />
             <marker date="1551011983180" expanded="true" signature="213:455" ph="{...}" />
@@ -5145,7 +4570,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/PhaseArtifactSystem.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="476">
           <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
           <folding>
             <marker date="1551010946235" expanded="false" signature="6:193" ph="..." />
@@ -5163,9 +4588,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/LuckArtifact.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <marker date="1551011229409" expanded="false" signature="6:43" ph="..." />
+            <marker date="1551011229409" expanded="true" signature="78:152" ph="{...}" />
+            <marker date="1551011229409" expanded="true" signature="123:150" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/LuckArtifactSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <marker date="1551012329694" expanded="true" signature="6:155" ph="..." />
+            <marker date="1551012329694" expanded="true" signature="187:867" ph="{...}" />
+            <marker date="1551012329694" expanded="true" signature="240:865" ph="{...}" />
+            <marker date="1551012329694" expanded="true" signature="271:316" ph="{...}" />
+            <marker date="1551012329694" expanded="true" signature="352:466" ph="{...}" />
+            <marker date="1551012329694" expanded="true" signature="504:862" ph="{...}" />
+            <marker date="1551012329694" expanded="true" signature="693:838" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/InputMovementComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1550397681099" expanded="true" signature="43:228" ph="{...}" />
+            <marker date="1550397681099" expanded="true" signature="98:226" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Relations/PlayerFollowComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1550742933963" expanded="false" signature="6:43" ph="..." />
+            <marker date="1550742933963" expanded="true" signature="68:214" ph="{...}" />
+            <marker date="1550742933963" expanded="true" signature="122:212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TEST/Follow.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TEST/MovingEnemy.cs" />
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ComponentSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="117" column="19" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TEST/MovingPlayer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TEST/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Input/InputSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="46" selection-end-column="57" />
+          <folding>
+            <marker date="1550740579068" expanded="false" signature="6:126" ph="..." />
+            <marker date="1550740579068" expanded="true" signature="148:2083" ph="{...}" />
+            <marker date="1550740579068" expanded="true" signature="194:2081" ph="{...}" />
+            <marker date="1550740579068" expanded="true" signature="228:405" ph="{...}" />
+            <marker date="1550740579068" expanded="true" signature="442:2078" ph="{...}" />
+            <marker date="1550740579068" expanded="true" signature="508:2074" ph="{...}" />
+            <marker date="1550740579068" expanded="true" signature="1558:1611" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/DurationComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1551007507458" expanded="true" signature="43:214" ph="{...}" />
+            <marker date="1551007507458" expanded="true" signature="93:212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/RadiusComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="85">
           <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
             <marker date="1551012464079" expanded="false" signature="6:43" ph="..." />
@@ -5177,11 +4691,204 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactUsingComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="102">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
             <marker date="1551002931491" expanded="true" signature="60:173" ph="{...}" />
             <marker date="1551002931491" expanded="true" signature="115:171" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ActiveArtifactCooldownSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+          <folding>
+            <marker date="1551008019006" expanded="false" signature="6:124" ph="..." />
+            <marker date="1551008019006" expanded="true" signature="156:691" ph="{...}" />
+            <marker date="1551008019006" expanded="true" signature="219:689" ph="{...}" />
+            <marker date="1551008019006" expanded="true" signature="250:362" ph="{...}" />
+            <marker date="1551008019006" expanded="true" signature="400:686" ph="{...}" />
+            <marker date="1551008019006" expanded="true" signature="460:682" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/MovingSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <marker date="1551338949367" expanded="true" signature="227:794" ph="{...}" />
+            <marker date="1551338949367" expanded="true" signature="256:329" ph="{...}" />
+            <marker date="1551338949367" expanded="true" signature="369:791" ph="{...}" />
+            <marker date="1551338949367" expanded="true" signature="422:787" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Flags/PlayerComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1550397680573" expanded="true" signature="91:121" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Relations/PlayerFollowSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+          <folding>
+            <marker date="1551340102455" expanded="true" signature="161:1339" ph="{...}" />
+            <marker date="1551340102455" expanded="true" signature="190:272" ph="{...}" />
+            <marker date="1551340102455" expanded="true" signature="300:437" ph="{...}" />
+            <marker date="1551340102455" expanded="true" signature="475:1334" ph="{...}" />
+            <marker date="1551340102455" expanded="true" signature="566:618" ph="{...}" />
+            <marker date="1551340102455" expanded="true" signature="675:1326" ph="{...}" />
+            <marker date="1551340102455" expanded="true" signature="1023:1158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/NewFile1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/AnimationSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1550397828951" expanded="true" signature="6:86" ph="..." />
+            <marker date="1550397828951" expanded="true" signature="108:757" ph="{...}" />
+            <marker date="1550397828951" expanded="true" signature="158:755" ph="{...}" />
+            <marker date="1550397828951" expanded="true" signature="190:245" ph="{...}" />
+            <marker date="1550397828951" expanded="true" signature="283:752" ph="{...}" />
+            <marker date="1550397828951" expanded="true" signature="345:748" ph="{...}" />
+            <marker date="1550397828951" expanded="true" signature="583:674" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModificatorSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1550405231309" expanded="false" signature="6:79" ph="..." />
+            <marker date="1550405231309" expanded="true" signature="107:1639" ph="{...}" />
+            <marker date="1550405231309" expanded="true" signature="207:1637" ph="{...}" />
+            <marker date="1550405231309" expanded="true" signature="241:310" ph="{...}" />
+            <marker date="1550405231309" expanded="true" signature="338:450" ph="{...}" />
+            <marker date="1550405231309" expanded="true" signature="486:602" ph="{...}" />
+            <marker date="1550405231309" expanded="true" signature="645:1630" ph="{...}" />
+            <marker date="1550405231309" expanded="true" signature="703:1215" ph="{...}" />
+            <marker date="1550405231309" expanded="true" signature="1267:1426" ph="{...}" />
+            <marker date="1550405231309" expanded="true" signature="1486:1622" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModificatorDrawing.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <marker date="1550401134743" expanded="false" signature="6:86" ph="..." />
+            <marker date="1550401134743" expanded="true" signature="114:500" ph="{...}" />
+            <marker date="1550401134743" expanded="true" signature="171:498" ph="{...}" />
+            <marker date="1550401134743" expanded="true" signature="205:274" ph="{...}" />
+            <marker date="1550401134743" expanded="true" signature="312:495" ph="{...}" />
+            <marker date="1550401134743" expanded="true" signature="378:491" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <marker date="1551068136926" expanded="false" signature="6:155" ph="..." />
+            <marker date="1551068136926" expanded="true" signature="187:1800" ph="{...}" />
+            <marker date="1551068136926" expanded="true" signature="267:1798" ph="{...}" />
+            <marker date="1551068136926" expanded="true" signature="298:545" ph="{...}" />
+            <marker date="1551068136926" expanded="true" signature="570:717" ph="{...}" />
+            <marker date="1551068136926" expanded="true" signature="755:1795" ph="{...}" />
+            <marker date="1551068136926" expanded="true" signature="882:1452" ph="{...}" />
+            <marker date="1551068136926" expanded="true" signature="1151:1226" ph="{...}" />
+            <marker date="1551068136926" expanded="true" signature="1242:1402" ph="{...}" />
+            <marker date="1551068136926" expanded="true" signature="1531:1791" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modificators/StunModificatorComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <marker date="1550398323672" expanded="false" signature="6:40" ph="..." />
+            <marker date="1550398323672" expanded="true" signature="68:259" ph="{...}" />
+            <marker date="1550398323672" expanded="true" signature="125:257" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/StoneGazeArtifact.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1550403082572" expanded="true" signature="53:159" ph="{...}" />
+            <marker date="1550403082572" expanded="true" signature="103:157" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModifierSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <marker date="1551359258370" expanded="true" signature="6:131" ph="..." />
+            <marker date="1551359258370" expanded="true" signature="159:1114" ph="{...}" />
+            <marker date="1551359258370" expanded="true" signature="251:1112" ph="{...}" />
+            <marker date="1551359258370" expanded="true" signature="279:367" ph="{...}" />
+            <marker date="1551359258370" expanded="true" signature="395:450" ph="{...}" />
+            <marker date="1551359258370" expanded="true" signature="493:1109" ph="{...}" />
+            <marker date="1551359258370" expanded="true" signature="716:1105" ph="{...}" />
+            <marker date="1551359258370" expanded="true" signature="801:1100" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/ModifierIcon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/ModifierSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <marker date="1551357728506" expanded="true" signature="6:131" ph="..." />
+            <marker date="1551357728506" expanded="true" signature="159:1375" ph="{...}" />
+            <marker date="1551357728506" expanded="true" signature="208:1373" ph="{...}" />
+            <marker date="1551357728506" expanded="true" signature="239:341" ph="{...}" />
+            <marker date="1551357728506" expanded="true" signature="379:1370" ph="{...}" />
+            <marker date="1551357728506" expanded="true" signature="439:1366" ph="{...}" />
+            <marker date="1551357728506" expanded="true" signature="671:1231" ph="{...}" />
+            <marker date="1551357728506" expanded="true" signature="1008:1144" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -5198,48 +4905,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/DurationComponent.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/ModifierComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="255">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <marker date="1551007507458" expanded="true" signature="43:214" ph="{...}" />
-            <marker date="1551007507458" expanded="true" signature="93:212" ph="{...}" />
+            <marker date="1551360544173" expanded="false" signature="6:43" ph="..." />
+            <marker date="1551360544173" expanded="true" signature="100:316" ph="{...}" />
+            <marker date="1551360544173" expanded="true" signature="150:245" ph="{...}" />
+            <marker date="1551360544173" expanded="true" signature="272:312" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/LuckArtifactSystem.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <marker date="1551012329694" expanded="false" signature="6:155" ph="..." />
-            <marker date="1551012329694" expanded="true" signature="187:867" ph="{...}" />
-            <marker date="1551012329694" expanded="true" signature="240:865" ph="{...}" />
-            <marker date="1551012329694" expanded="true" signature="271:316" ph="{...}" />
-            <marker date="1551012329694" expanded="true" signature="352:466" ph="{...}" />
-            <marker date="1551012329694" expanded="true" signature="504:862" ph="{...}" />
-            <marker date="1551012329694" expanded="true" signature="693:838" ph="{...}" />
+            <marker date="1551355342739" expanded="false" signature="6:43" ph="..." />
+            <marker date="1551355342739" expanded="true" signature="78:154" ph="{...}" />
+            <marker date="1551355342739" expanded="true" signature="125:152" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/StunModifier.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="102">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <marker date="1551016119876" expanded="false" signature="6:155" ph="..." />
-            <marker date="1551016119876" expanded="true" signature="187:1820" ph="{...}" />
-            <marker date="1551016119876" expanded="true" signature="267:1818" ph="{...}" />
-            <marker date="1551016119876" expanded="true" signature="298:545" ph="{...}" />
-            <marker date="1551016119876" expanded="true" signature="570:717" ph="{...}" />
-            <marker date="1551016119876" expanded="true" signature="755:1815" ph="{...}" />
-            <marker date="1551016119876" expanded="true" signature="906:1472" ph="{...}" />
-            <marker date="1551016119876" expanded="true" signature="1171:1246" ph="{...}" />
-            <marker date="1551016119876" expanded="true" signature="1262:1422" ph="{...}" />
-            <marker date="1551016119876" expanded="true" signature="1551:1811" ph="{...}" />
+            <marker date="1551356709209" expanded="false" signature="6:43" ph="..." />
+            <marker date="1551356709209" expanded="true" signature="78:157" ph="{...}" />
+            <marker date="1551356709209" expanded="true" signature="123:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/SpeedChangeModifier.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1551361372156" expanded="false" signature="6:43" ph="..." />
+            <marker date="1551361372156" expanded="true" signature="78:164" ph="{...}" />
+            <marker date="1551361372156" expanded="true" signature="130:162" ph="{...}" />
           </folding>
         </state>
       </provider>

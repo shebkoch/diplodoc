@@ -29,7 +29,6 @@ namespace ECS.System
 				
 				entity.transform.position = position;
 
-				//entity.transform.Translate(movePosition);
 			}
 		}
 	}

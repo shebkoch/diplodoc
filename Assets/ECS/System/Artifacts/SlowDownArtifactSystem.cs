@@ -26,13 +26,12 @@ namespace ECS.System.Artifacts
 		} 
 		protected override void OnUpdate()
 		{
-			bool canUse = false;
 			float radius = 0;
 			float slow = 0;
 			bool isChanged = false;
 			foreach (Artifact entity in GetEntities<Artifact>())
 			{
-				canUse = entity.artifactUsingComponent.canUse;
+				var canUse = entity.artifactUsingComponent.canUse;
 				radius = entity.radiusComponent.radius;
 				slow = entity.slowDownArtifact.slow;
 				bool isEnd = entity.durationComponent.isEnd;

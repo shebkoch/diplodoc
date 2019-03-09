@@ -78,7 +78,10 @@
               <e p="StunModificatorComponent.cs" t="Include" />
             </e>
             <e p="Modifiers" t="Include">
+              <e p="ModifierComponent.cs" t="Include" />
               <e p="PoisonModifier.cs" t="Include" />
+              <e p="SpeedChangeModifier.cs" t="Include" />
+              <e p="StunModifier.cs" t="Include" />
             </e>
             <e p="Relations" t="Include">
               <e p="CreatureTransformComponent.cs" t="Include" />
@@ -146,8 +149,10 @@
             </e>
             <e p="MeleeAttackSystem.cs" t="Include" />
             <e p="Modifiers" t="Include">
+              <e p="ModifierSystem.cs" t="Include" />
               <e p="StunModificatorDrawing.cs" t="Include" />
               <e p="StunModificatorSystem.cs" t="Include" />
+              <e p="StunModifierSystem.cs" t="Include" />
             </e>
             <e p="MouseControllerSystem.cs" t="Include" />
             <e p="MovingSystem.cs" t="Include" />

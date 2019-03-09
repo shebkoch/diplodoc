@@ -3,8 +3,8 @@ using UnityEngine;
 
 namespace ECS.Component.Modifiers
 {
-	public class PoisonModifier : MonoBehaviour
+	public class SpeedChangeModifier : MonoBehaviour
 	{
-		public int damage;
+		public float lastSpeed;
 	}
 }

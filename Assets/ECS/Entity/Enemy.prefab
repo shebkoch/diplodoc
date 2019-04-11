@@ -121,7 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   receivedDamage: 0
-  type: 1
+  type: 5
   receivedDamageFrom: 
 --- !u!1 &4329644765918881875
 GameObject:
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2
-  maxHealth: 0
+  maxHealth: 2
 --- !u!114 &5634784867059586715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,7 +266,7 @@ MonoBehaviour:
       z: 0
       w: 0
   horizontal: 0
-  speed: 3
+  speed: 4
   vertical: 0
 --- !u!114 &4807322865796128014
 MonoBehaviour:

@@ -3,9 +3,8 @@ using UnityEngine;
 
 namespace ECS.Component.Artifacts
 {
-	public class SlowDownArtifact : MonoBehaviour
-	{
-		public bool active;
-		public float slow;
-	}
+    public class SlowDownArtifact : MonoBehaviour
+    {
+        public float slow;
+    }
 }

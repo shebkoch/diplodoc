@@ -1,5 +1,7 @@
 using ECS.Component;
+using ECS.Component.Attack;
 using Scripts.Structures;
+using Structures;
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;
@@ -13,6 +15,7 @@ namespace ECS.System
 			public Transform transform;
 			public RangedWeaponComponent rangedWeaponComponent;
 			public RangedAttackComponent rangedAttackComponent;
+			public PreAttackComponent preAttackComponent;
 		}
 
 		protected override void OnUpdate()
@@ -43,6 +46,8 @@ namespace ECS.System
 				float horizontal = result.x;
 				float vertical = result.y;
 
+				entity.preAttackComponent.weapon = weapon;
+				entity.preAttackComponent.isAttacked = true;
 				//ECS
 				if (!isWeaponEnable)
 				{
@@ -55,6 +60,8 @@ namespace ECS.System
 				bulletMoving.vertical = vertical;
 				bulletMoving.horizontal = horizontal;
 				bulletMoving.speed = weapon.bulletSpeed;
+				var bulletCollision = bullet.GetComponent<CollisionComponent>();
+				bulletCollision.damage = weapon.damage;
 				
 				entity.rangedWeaponComponent.rangedWeapon = weapon;
 				entity.rangedWeaponComponent.isEnable = isWeaponEnable;

@@ -175,7 +175,7 @@ MonoBehaviour:
   weapon:
     lastAttack: 0
     cooldown: 0.3
-    damage: 1
+    damage: 4
     sprite: {fileID: 21300000, guid: 2b687d591f0e4e6439a15334690c7128, type: 3}
   weaponObject: {fileID: 0}
 --- !u!114 &6051027557054961263

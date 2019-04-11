@@ -86,6 +86,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 789327703125160996, guid: 736043b4687650f4d83c6806bea31795,
+        type: 3}
+      propertyPath: m_Name
+      value: fast
+      objectReference: {fileID: 0}
     - target: {fileID: 789327703125161016, guid: 736043b4687650f4d83c6806bea31795,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -151,11 +156,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 789327703125160996, guid: 736043b4687650f4d83c6806bea31795,
+    - target: {fileID: 789327703125161017, guid: 736043b4687650f4d83c6806bea31795,
         type: 3}
-      propertyPath: m_Name
-      value: fast
-      objectReference: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7fbc183759bcd034eb64e6ee83891bf3,
+        type: 3}
     - target: {fileID: 789327703125161019, guid: 736043b4687650f4d83c6806bea31795,
         type: 3}
       propertyPath: weapon.damage
@@ -164,17 +170,12 @@ PrefabInstance:
     - target: {fileID: 789327703125161019, guid: 736043b4687650f4d83c6806bea31795,
         type: 3}
       propertyPath: weapon.cooldown
-      value: 0.25
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 789327703125161019, guid: 736043b4687650f4d83c6806bea31795,
         type: 3}
       propertyPath: weapon.bulletCount
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 789327703125161019, guid: 736043b4687650f4d83c6806bea31795,
-        type: 3}
-      propertyPath: weapon.bulletSpeed
-      value: 7
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 789327703125161019, guid: 736043b4687650f4d83c6806bea31795,
         type: 3}
@@ -182,6 +183,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 7fbc183759bcd034eb64e6ee83891bf3,
         type: 3}
+    - target: {fileID: 789327703125161019, guid: 736043b4687650f4d83c6806bea31795,
+        type: 3}
+      propertyPath: weapon.bulletSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 789327704445713828, guid: 736043b4687650f4d83c6806bea31795,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -202,12 +208,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.2489848
       objectReference: {fileID: 0}
-    - target: {fileID: 789327703125161017, guid: 736043b4687650f4d83c6806bea31795,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7fbc183759bcd034eb64e6ee83891bf3,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 736043b4687650f4d83c6806bea31795, type: 3}
 --- !u!4 &116717785111482989 stripped

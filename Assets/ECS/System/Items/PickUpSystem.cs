@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using ECS.Component;
 using ECS.Component.Items;
 using Scripts.Structures;
+using Structures;
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;

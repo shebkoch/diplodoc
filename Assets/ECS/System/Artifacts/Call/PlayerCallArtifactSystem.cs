@@ -7,12 +7,13 @@ using UnityEngine;
 
 namespace ECS.System.Artifacts.Call
 {
-	public class DefenderArtifactSystem : ComponentSystem
+	public class PlayerCallArtifactSystem : ComponentSystem
 	{
 		protected struct Artifact
 		{
 			public ArtifactUsingComponent artifactUsingComponent;
-			public DefenderArtifact defenderArtifact;
+			public PlayerCallArtifactComponent playerCallArtifactComponent;
+			public CallArtifactComponent callArtifactComponent;
 			public CooldownComponent cooldownComponent;
 		}
 		public struct Player
@@ -29,18 +30,14 @@ namespace ECS.System.Artifacts.Call
 			foreach (Artifact entity in GetEntities<Artifact>())
 			{
 				bool enable = entity.artifactUsingComponent.canUse;
+
 				if (enable)
 				{
-					float defenderArtifactDuration = entity.defenderArtifact.duration;
 					entity.cooldownComponent.isReloadNeeded = true;
-					for (int i = 0; i < 3; i++)
-					{
-						GameObject defender = GameObject.Instantiate(entity.defenderArtifact.defender, position,Quaternion.identity);
-						var cooldownComponent = defender.GetComponent<CooldownComponent>();
-						cooldownComponent.cooldown = defenderArtifactDuration;
-						cooldownComponent.isReloadNeeded = true;
-					}
+					entity.callArtifactComponent.isCallNeeded = true;
+					entity.callArtifactComponent.position = position;
 				}
+
 				
 				entity.artifactUsingComponent.canUse = false;
 			}

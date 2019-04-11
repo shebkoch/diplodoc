@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using ECS.Component;
+using ECS.Component.Pool;
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;
@@ -12,9 +14,14 @@ namespace ECS.System
 			public DeathComponent deathComponent;
 			public HybridDeathComponent hybridDeathComponent;
 		}
+		protected struct Pull
+		{
+			public PoolComponent poolComponent;
+		}
 
 		protected override void OnUpdate()
 		{
+			List<GameObject> enemies = new List<GameObject>();
 			foreach (Parameters entity in GetEntities<Parameters>())
 			{
 				bool isDeathNeed = entity.deathComponent.isDeathNeed;
@@ -28,7 +35,12 @@ namespace ECS.System
 				PostUpdateCommands.DestroyEntity(entity.hybridDeathComponent.entity);
 				//ECS
 				entity.hybridDeathComponent.DelayedDeath();
-				
+//				enemies.Add(entity.hybridDeathComponent.gameObject);
+			}
+
+			foreach (var entity in GetEntities<Pull>())
+			{
+				entity.poolComponent.enemies.AddRange(enemies);
 			}
 		}
 	}

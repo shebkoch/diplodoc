@@ -3,7 +3,6 @@ using ECS.Component;
 using ECS.Component.Artifacts;
 using Unity.Entities;
 using Unity.Mathematics;
-using UnityEditor.Profiling.Memory.Experimental;
 using UnityEngine;
 
 namespace ECS.System.Artifacts

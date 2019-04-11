@@ -3,8 +3,8 @@ using UnityEngine;
 
 namespace ECS.Component.Artifacts
 {
-	public class RegenByShotArtifact : MonoBehaviour
-	{
-		public int shotCount;
-	}
+    public class RegenByShotArtifact : MonoBehaviour
+    {
+        public int shotCount;
+    }
 }

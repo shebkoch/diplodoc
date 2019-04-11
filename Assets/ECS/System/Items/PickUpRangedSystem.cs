@@ -1,6 +1,8 @@
 using ECS.Component;
+using ECS.Component.Attack;
 using ECS.Component.Items;
 using Scripts.Structures;
+using Structures;
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;

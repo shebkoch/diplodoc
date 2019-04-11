@@ -3,8 +3,8 @@ using UnityEngine;
 
 namespace ECS.Component.Artifacts
 {
-	public class LuckArtifact : MonoBehaviour
-	{
-		public int chance;
-	}
+    public class LuckArtifact : MonoBehaviour
+    {
+        public int chance;
+    }
 }

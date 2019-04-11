@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ECS.Component
+namespace ECS.Component.Attack
 {
 	public class MeleeAttackComponent : MonoBehaviour
 	{

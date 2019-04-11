@@ -2,8 +2,6 @@ using ECS.Component;
 using ECS.Component.Artifacts;
 using ECS.Component.Artifacts.Common;
 using Unity.Entities;
-using Unity.Mathematics;
-using UnityEngine;
 
 namespace ECS.System.Artifacts
 {

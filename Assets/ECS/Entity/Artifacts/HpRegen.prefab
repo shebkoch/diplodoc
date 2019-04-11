@@ -25,6 +25,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HpRegen
       objectReference: {fileID: 0}
+    - target: {fileID: 3853756658292167309, guid: 0dcd4075bc6a881459325a47b96e59f0,
+        type: 3}
+      propertyPath: cooldown
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 17547953633844878, guid: 0dcd4075bc6a881459325a47b96e59f0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -80,17 +85,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3853756658292167309, guid: 0dcd4075bc6a881459325a47b96e59f0,
-        type: 3}
-      propertyPath: cooldown
-      value: 60
-      objectReference: {fileID: 0}
     - target: {fileID: 1831780289893311645, guid: 0dcd4075bc6a881459325a47b96e59f0,
         type: 3}
       propertyPath: sprite
       value: 
       objectReference: {fileID: 21300000, guid: 13af18eadd047dc4f87e8847f1d6ad53,
         type: 3}
+    - target: {fileID: 1831780289893311645, guid: 0dcd4075bc6a881459325a47b96e59f0,
+        type: 3}
+      propertyPath: artifactName
+      value: "\u0420\u0435\u0433\u0435\u043D\u0435\u0440\u0430\u0446\u0438\u044F"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dcd4075bc6a881459325a47b96e59f0, type: 3}
 --- !u!1 &177797249910010552 stripped

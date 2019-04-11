@@ -1,7 +1,7 @@
 using Scripts.Structures;
 using UnityEngine;
 
-namespace ECS.Component
+namespace ECS.Component.Attack
 {
 	public class MeleeWeaponComponent : MonoBehaviour
 	{

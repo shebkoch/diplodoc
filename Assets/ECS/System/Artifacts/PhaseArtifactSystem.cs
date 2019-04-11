@@ -13,6 +13,7 @@ namespace ECS.System.Artifacts
 		protected struct Artifact
 		{
 			public ArtifactUsingComponent artifactUsingComponent;
+			public CooldownComponent cooldownComponent;
 			public PhaseArtifact phaseArtifact;
 			public DurationComponent durationComponent;
 		}
@@ -37,6 +38,7 @@ namespace ECS.System.Artifacts
 					isTriggerChange = true;
 					entity.durationComponent.isStartNeeded = true;
 					entity.artifactUsingComponent.canUse = false;
+					entity.cooldownComponent.isReloadNeeded = true;
 					isActive = true;
 				}
 				if(isEnd){

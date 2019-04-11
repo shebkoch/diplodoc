@@ -11,7 +11,7 @@ namespace ECS.System.Artifacts.Call
 		protected struct Defender
 		{
 			public PlayerDefenderComponent playerDefenderComponent;
-			public CooldownComponent cooldownComponent;
+			public DurationComponent durationComponent;
 			public DeathComponent deathComponent;
 		}
 
@@ -19,7 +19,7 @@ namespace ECS.System.Artifacts.Call
 		{
 			foreach (Defender entity in GetEntities<Defender>())
 			{
-				if (entity.cooldownComponent.canUse)
+				if (entity.durationComponent.isEnd)
 					entity.deathComponent.isDeathNeed = true;
 			}
 		}

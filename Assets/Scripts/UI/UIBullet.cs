@@ -1,4 +1,5 @@
 using ECS.Component;
+using ECS.Component.Attack;
 using ECS.Component.UI;
 using UnityEngine;
 using UnityEngine.UI;

@@ -9,12 +9,18 @@ namespace DefaultNamespace.UI
 	public class UIShowArtifacts : MonoBehaviour
 	{
 		public List<Image> activeImages;
+		public List<Text> texts;
 		public List<Image> passiveImages;
 
 		private bool isActive = false;
 		private void Update()
 		{
-			if(Input.anyKey) gameObject.SetActive(false);
+//			Time.timeScale = 0.001f;
+			if (Input.anyKey)
+			{
+				gameObject.SetActive(false);
+//				Time.timeScale = 1;
+			}
 			if (!isActive)
 			{
 				ArtifactsPoolComponent artifactsPoolComponent = FindObjectOfType<ArtifactsPoolComponent>();
@@ -24,7 +30,9 @@ namespace DefaultNamespace.UI
 
 				for (var i = 0; i < active.Count; i++)
 				{
-					activeImages[i].sprite = active[i].GetComponent<ArtifactComponent>().sprite;
+					var artifactComponent = active[i].GetComponent<ArtifactComponent>();
+					activeImages[i].sprite = artifactComponent.sprite;
+					texts[i].text = artifactComponent.artifactName;
 				}
 				for (var i = 0; i < passive.Count; i++)
 				{

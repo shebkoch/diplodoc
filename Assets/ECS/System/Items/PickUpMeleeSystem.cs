@@ -1,4 +1,5 @@
 using ECS.Component;
+using ECS.Component.Attack;
 using ECS.Component.Items;
 using Scripts.Structures;
 using Unity.Entities;

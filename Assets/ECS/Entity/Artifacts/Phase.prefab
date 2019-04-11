@@ -41,6 +41,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Phase
       objectReference: {fileID: 0}
+    - target: {fileID: 3853756658292167309, guid: 0dcd4075bc6a881459325a47b96e59f0,
+        type: 3}
+      propertyPath: cooldown
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 17547953633844878, guid: 0dcd4075bc6a881459325a47b96e59f0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -102,6 +107,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b7bb9f88576b01b4286e4d99798fb2bb,
         type: 3}
+    - target: {fileID: 1831780289893311645, guid: 0dcd4075bc6a881459325a47b96e59f0,
+        type: 3}
+      propertyPath: artifactName
+      value: "\u041F\u0440\u043E\u0445\u043E\u0434 \u0441\u043A\u0432\u043E\u0437\u044C
+        \u043F\u0440\u0435\u043F\u044F\u0442\u0441\u0442\u0432\u0438\u044F"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dcd4075bc6a881459325a47b96e59f0, type: 3}
 --- !u!1 &5340578433007518293 stripped

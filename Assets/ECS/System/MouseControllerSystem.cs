@@ -1,4 +1,5 @@
 using ECS.Component;
+using ECS.Component.Attack;
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;

@@ -20,8 +20,8 @@ GameObject:
   - component: {fileID: 9041778251522591812}
   - component: {fileID: 9041778251522591815}
   - component: {fileID: 9133224015772004950}
-  - component: {fileID: 4168898058077253309}
   - component: {fileID: 5524705484917560647}
+  - component: {fileID: 541528068275906252}
   m_Layer: 16
   m_Name: defender
   m_TagString: Untagged
@@ -265,22 +265,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDeathNeed: 0
   isDie: 0
---- !u!114 &4168898058077253309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9041778251522591825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a02f2b23c53746d080ec96b450aa315d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canUse: 0
-  cooldown: 0
-  last: -3.4028235e+38
-  isReloadNeeded: 0
 --- !u!114 &5524705484917560647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,3 +278,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invokeTime: 0.1
+--- !u!114 &541528068275906252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9041778251522591825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a55b68b8894f60a72ab2b86afb83e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnd: 0
+  duration: 25
+  last: -3.4028235e+38
+  isStartNeeded: 0

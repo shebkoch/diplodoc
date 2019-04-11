@@ -18,11 +18,11 @@ TagManager:
   - 
   - Player
   - Enemy
-  - Bullet
+  - PlayerAttack
   - Obstacle
   - PickUp
   - Other
-  - 
+  - EnemyAttack
   - 
   - 
   - 

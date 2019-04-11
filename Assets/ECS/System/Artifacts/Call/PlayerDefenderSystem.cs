@@ -1,5 +1,6 @@
 using ECS.Component;
 using ECS.Component.Artifacts.Call;
+using ECS.Component.Attack;
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;

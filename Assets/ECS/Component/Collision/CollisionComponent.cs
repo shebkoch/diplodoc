@@ -22,6 +22,7 @@ namespace ECS.Component
 
 		private void OnCollisionEnter2D(Collision2D other)
 		{
+			
 			var collisionComponent = other.gameObject.GetComponent<CollisionComponent>();
 			Collision(collisionComponent);
 		}
@@ -40,6 +41,6 @@ namespace ECS.Component
 	
 	public enum CollisionType
 	{
-		Player,Enemy, PlayerAttack, Obstacle, Other
+		Player,Enemy, PlayerAttack, Obstacle, Other, EnemyAttack
 	}
 }

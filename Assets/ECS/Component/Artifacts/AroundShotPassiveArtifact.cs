@@ -6,9 +6,9 @@ using UnityEngine;
 
 namespace ECS.Component.Artifacts
 {
-	public class AroundShotPassiveArtifact : MonoBehaviour
-	{
-		public GameObject bullet;
-		public int2 bulletCount;
-	}
+    public class AroundShotPassiveArtifact : MonoBehaviour
+    {
+        public GameObject bullet;
+        public int2 bulletCount;
+    }
 }

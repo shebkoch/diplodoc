@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Scripts.Structures
+namespace Structures
 {
 	[Serializable]
 	public struct RangedWeapon
@@ -13,5 +13,11 @@ namespace Scripts.Structures
 		public int damage;
 		public int bulletCount;
 		public Sprite sprite;
+		public PreAttack preAttack;
+	}
+
+	public enum PreAttack
+	{
+		None, AroundShot
 	}
 }

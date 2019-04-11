@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\shebk\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\shebk\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_diplodoc.1359748080.00" t="ExcludeRecursive" />
-    <e p="D:\diplodoc" t="IncludeRecursive">
+    <e p="C:\Users\sks\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\sks\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_diplodoc.-197094916.00" t="ExcludeRecursive" />
+    <e p="C:\Users\sks\Desktop\diplodoc" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="CompassStudio" t="Include">
@@ -17,7 +17,9 @@
               <e p="AroundShotPassiveArtifact.cs" t="Include" />
               <e p="ArthurStoneArtifact.cs" t="Include" />
               <e p="Call" t="Include">
+                <e p="CallArtifactComponent.cs" t="Include" />
                 <e p="DefenderArtifact.cs" t="Include" />
+                <e p="PlayerCallArtifactComponent.cs" t="Include" />
                 <e p="PlayerDefenderComponent.cs" t="Include" />
                 <e p="PlayerDefenderSettings.cs" t="Include" />
               </e>
@@ -26,6 +28,9 @@
                 <e p="ArtifactsPoolComponent.cs" t="Include" />
                 <e p="ArtifactUsingComponent.cs" t="Include" />
               </e>
+              <e p="CooldownReduceArtifact.cs" t="Include" />
+              <e p="FakePlayerFollowArtifact.cs" t="Include" />
+              <e p="FrontTeleportArtifact.cs" t="Include" />
               <e p="HasteArtifact.cs" t="Include" />
               <e p="HpRegenArtifact.cs" t="Include" />
               <e p="LuckArtifact.cs" t="Include" />
@@ -33,11 +38,22 @@
               <e p="RegenByShotArtifact.cs" t="Include" />
               <e p="SlowDownArtifact.cs" t="Include" />
               <e p="StoneGazeArtifact.cs" t="Include" />
+              <e p="TeleportArtifact.cs" t="Include" />
               <e p="Util" t="Include">
                 <e p="ChanceArtifactComponent.cs" t="Include" />
                 <e p="ChanceByHpLoseComponent.cs" t="Include" />
                 <e p="RadiusComponent.cs" t="Include" />
               </e>
+            </e>
+            <e p="Attack" t="Include">
+              <e p="MeleeAttackComponent.cs" t="Include" />
+              <e p="MeleeWeaponComponent.cs" t="Include" />
+              <e p="PreAttack" t="Include">
+                <e p="AroundShotFlag.cs" t="Include" />
+              </e>
+              <e p="PreAttackComponent.cs" t="Include" />
+              <e p="RangedAttackComponent.cs" t="Include" />
+              <e p="RangedWeaponComponent.cs" t="Include" />
             </e>
             <e p="Collision" t="Include">
               <e p="CollisionComponent.cs" t="Include" />
@@ -54,13 +70,10 @@
               <e p="DamageComponent.cs" t="Include" />
               <e p="DeathComponent.cs" t="Include" />
               <e p="HybridDeathComponent.cs" t="Include" />
-              <e p="MeleeAttackComponent.cs" t="Include" />
-              <e p="MeleeWeaponComponent.cs" t="Include" />
-              <e p="RangedAttackComponent.cs" t="Include" />
-              <e p="RangedWeaponComponent.cs" t="Include" />
             </e>
             <e p="DurationComponent.cs" t="Include" />
             <e p="Enemy" t="Include">
+              <e p="EnemyGeneratorComponent.cs" t="Include" />
               <e p="ExplodeEnemyComponent.cs" t="Include" />
             </e>
             <e p="Flags" t="Include">
@@ -82,6 +95,10 @@
               <e p="PoisonModifier.cs" t="Include" />
               <e p="SpeedChangeModifier.cs" t="Include" />
               <e p="StunModifier.cs" t="Include" />
+            </e>
+            <e p="Pool" t="Include">
+              <e p="PoolComponent.cs" t="Include" />
+              <e p="PullComponent.cs" t="Include" />
             </e>
             <e p="Relations" t="Include">
               <e p="CreatureTransformComponent.cs" t="Include" />
@@ -110,10 +127,14 @@
               <e p="AroundShotSystem.cs" t="Include" />
               <e p="ArthurStoneSystem.cs" t="Include" />
               <e p="Call" t="Include">
-                <e p="DefenderArtifactSystem.cs" t="Include" />
+                <e p="CallArtifactSystem.cs" t="Include" />
                 <e p="DefenderDieSystem.cs" t="Include" />
+                <e p="PlayerCallArtifactSystem.cs" t="Include" />
                 <e p="PlayerDefenderSystem.cs" t="Include" />
               </e>
+              <e p="CooldownReduceSystem.cs" t="Include" />
+              <e p="FakePlayerFollowSystem.cs" t="Include" />
+              <e p="FrontTeleportArtifactSystem.cs" t="Include" />
               <e p="HasteArtifactSystem.cs" t="Include" />
               <e p="HpRegenArtifactSystem.cs" t="Include" />
               <e p="LuckArtifactSystem.cs" t="Include" />
@@ -121,10 +142,18 @@
               <e p="SlowDownArtifactSystem.cs" t="Include" />
               <e p="StartArtifactDistributionSystem.cs" t="Include" />
               <e p="StoneGazeArtifactSystem.cs" t="Include" />
+              <e p="TeleportArtifactSystem.cs" t="Include" />
               <e p="Util" t="Include">
                 <e p="ActiveArtifactCooldownSystem.cs" t="Include" />
                 <e p="ChanceByHpLoseSystem.cs" t="Include" />
               </e>
+            </e>
+            <e p="Attack" t="Include">
+              <e p="MeleeAttackSystem.cs" t="Include" />
+              <e p="PreAttack" t="Include">
+                <e p="AroundShotPreAttackSystem.cs" t="Include" />
+              </e>
+              <e p="RangedAttackSystem.cs" t="Include" />
             </e>
             <e p="Colision" t="Include">
               <e p="CollisionSystem.cs" t="Include" />
@@ -134,6 +163,7 @@
             <e p="DeathSystem.cs" t="Include" />
             <e p="DurationComponent.cs" t="Include" />
             <e p="Enemy" t="Include">
+              <e p="EnemyGeneratorSystem.cs" t="Include" />
               <e p="ExplodeEnemySystem.cs" t="Include" />
             </e>
             <e p="Input" t="Include">
@@ -147,7 +177,6 @@
               <e p="PickUpRangedSystem.cs" t="Include" />
               <e p="PickUpSystem.cs" t="Include" />
             </e>
-            <e p="MeleeAttackSystem.cs" t="Include" />
             <e p="Modifiers" t="Include">
               <e p="ModifierSystem.cs" t="Include" />
               <e p="StunModificatorDrawing.cs" t="Include" />
@@ -156,7 +185,9 @@
             </e>
             <e p="MouseControllerSystem.cs" t="Include" />
             <e p="MovingSystem.cs" t="Include" />
-            <e p="RangedAttackSystem.cs" t="Include" />
+            <e p="Pool" t="Include">
+              <e p="PullSystem.cs" t="Include" />
+            </e>
             <e p="Relations" t="Include">
               <e p="PlayerFollowSystem.cs" t="Include" />
             </e>
@@ -176,6 +207,7 @@
             <e p="Room.cs" t="Include" />
             <e p="Triangle.cs" t="Include" />
           </e>
+          <e p="NestedObjects.cs" t="Include" />
           <e p="Rand.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
           <e p="Structures" t="Include">

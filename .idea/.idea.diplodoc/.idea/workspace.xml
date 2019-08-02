@@ -8,22 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c0ca74-2c0c-406f-a85c-7d83bec8994f" name="Default Changelist" comment="_backup">
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/ModifierComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/ModifierComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/SpeedChangeModifier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/SpeedChangeModifier.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/StunModifier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/StunModifier.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers/ModifierSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers/ModifierSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModifierSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModifierSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.diplodoc/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.diplodoc/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.diplodoc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.diplodoc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/Entity/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Entity/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ECS/System/MovingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/System/MovingSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <ignored path=".idea/.idea.diplodoc/.idea/" />
     <ignored path="Assets/CompassStudio/1690+ RPG Icons/Demo/Demo.unity" />
@@ -3434,164 +3420,160 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactComponent.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/ModifierComponent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="204">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
-                <marker date="1554620394840" expanded="false" signature="6:43" ph="..." />
-                <marker date="1554620394840" expanded="true" signature="85:244" ph="{...}" />
-                <marker date="1554620394840" expanded="true" signature="135:242" ph="{...}" />
+                <marker date="1551360544173" expanded="false" signature="6:65" ph="..." />
+                <marker date="1551360544173" expanded="true" signature="100:316" ph="{...}" />
+                <marker date="1551360544173" expanded="true" signature="150:245" ph="{...}" />
+                <marker date="1551360544173" expanded="true" signature="272:312" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIArtifactCooldown.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/StunModifier.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="85">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding>
-                <marker date="1551008020000" expanded="false" signature="6:152" ph="..." />
-                <marker date="1551008020000" expanded="true" signature="183:984" ph="{...}" />
-                <marker date="1551008020000" expanded="true" signature="234:982" ph="{...}" />
-                <marker date="1551008020000" expanded="true" signature="377:979" ph="{...}" />
-                <marker date="1551008020000" expanded="true" signature="408:725" ph="{...}" />
+                <marker date="1551356709209" expanded="false" signature="6:43" ph="..." />
+                <marker date="1551356709209" expanded="true" signature="78:157" ph="{...}" />
+                <marker date="1551356709209" expanded="true" signature="123:155" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactUsingComponent.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/SlowDownArtifact.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="68">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding>
-                <marker date="1551002932000" expanded="true" signature="60:173" ph="{...}" />
-                <marker date="1551002932000" expanded="true" signature="115:171" ph="{...}" />
+                <marker date="1554999203611" expanded="false" signature="6:43" ph="..." />
+                <marker date="1554999203611" expanded="true" signature="78:171" ph="{...}" />
+                <marker date="1554999203611" expanded="true" signature="130:169" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ActiveArtifactCooldownSystem.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/StoneGazeArtifact.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="22" column="54" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="54" />
+            <state relative-caret-position="34">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
-                <marker date="1551008020000" expanded="false" signature="6:124" ph="..." />
-                <marker date="1551008020000" expanded="true" signature="156:691" ph="{...}" />
-                <marker date="1551008020000" expanded="true" signature="219:689" ph="{...}" />
-                <marker date="1551008020000" expanded="true" signature="250:362" ph="{...}" />
-                <marker date="1551008020000" expanded="true" signature="400:686" ph="{...}" />
-                <marker date="1551008020000" expanded="true" signature="460:682" ph="{...}" />
+                <marker date="1554999203611" expanded="true" signature="53:180" ph="{...}" />
+                <marker date="1554999203611" expanded="true" signature="106:178" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIShowArtifacts.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modificators/StunModificatorComponent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+            <state relative-caret-position="51">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
-                <marker date="1554620687548" expanded="false" signature="6:137" ph="..." />
-                <marker date="1554620687548" expanded="true" signature="168:1208" ph="{...}" />
-                <marker date="1554620687548" expanded="true" signature="216:1206" ph="{...}" />
-                <marker date="1554620687548" expanded="true" signature="375:1203" ph="{...}" />
-                <marker date="1554620687548" expanded="true" signature="430:499" ph="{...}" />
-                <marker date="1554620687548" expanded="true" signature="517:1199" ph="{...}" />
-                <marker date="1554620687548" expanded="true" signature="838:1033" ph="{...}" />
-                <marker date="1554620687548" expanded="true" signature="1077:1173" ph="{...}" />
+                <marker date="1550398323672" expanded="false" signature="6:40" ph="..." />
+                <marker date="1550398323672" expanded="true" signature="68:259" ph="{...}" />
+                <marker date="1550398323672" expanded="true" signature="125:257" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Relations/PlayerFollowComponent.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModifierSystem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
-                <marker date="1550742934000" expanded="false" signature="6:43" ph="..." />
-                <marker date="1550742934000" expanded="true" signature="68:214" ph="{...}" />
-                <marker date="1550742934000" expanded="true" signature="122:212" ph="{...}" />
+                <marker date="1551359258370" expanded="false" signature="6:131" ph="..." />
+                <marker date="1551359258370" expanded="true" signature="159:1114" ph="{...}" />
+                <marker date="1551359258370" expanded="true" signature="251:1112" ph="{...}" />
+                <marker date="1551359258370" expanded="true" signature="279:367" ph="{...}" />
+                <marker date="1551359258370" expanded="true" signature="395:450" ph="{...}" />
+                <marker date="1551359258370" expanded="true" signature="493:1109" ph="{...}" />
+                <marker date="1551359258370" expanded="true" signature="716:1105" ph="{...}" />
+                <marker date="1551359258370" expanded="true" signature="801:1100" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Relations/PlayerFollowSystem.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/ModifierSystem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="697">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
-                <marker date="1551340104000" expanded="false" signature="6:86" ph="..." />
-                <marker date="1551340104000" expanded="true" signature="108:1341" ph="{...}" />
-                <marker date="1551340104000" expanded="true" signature="161:1339" ph="{...}" />
-                <marker date="1551340104000" expanded="true" signature="190:272" ph="{...}" />
-                <marker date="1551340104000" expanded="true" signature="300:437" ph="{...}" />
-                <marker date="1551340104000" expanded="true" signature="475:1334" ph="{...}" />
-                <marker date="1551340104000" expanded="true" signature="566:618" ph="{...}" />
-                <marker date="1551340104000" expanded="true" signature="675:1326" ph="{...}" />
-                <marker date="1551340104000" expanded="true" signature="1023:1158" ph="{...}" />
+                <marker date="1551357728506" expanded="false" signature="6:131" ph="..." />
+                <marker date="1551357728506" expanded="true" signature="159:1375" ph="{...}" />
+                <marker date="1551357728506" expanded="true" signature="208:1373" ph="{...}" />
+                <marker date="1551357728506" expanded="true" signature="239:341" ph="{...}" />
+                <marker date="1551357728506" expanded="true" signature="379:1370" ph="{...}" />
+                <marker date="1551357728506" expanded="true" signature="439:1366" ph="{...}" />
+                <marker date="1551357728506" expanded="true" signature="671:1231" ph="{...}" />
+                <marker date="1551357728506" expanded="true" signature="1008:1144" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/RotationSystem.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="85">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="25" />
               <folding>
-                <marker date="1550397840000" expanded="false" signature="6:86" ph="..." />
-                <marker date="1550397840000" expanded="true" signature="108:795" ph="{...}" />
-                <marker date="1550397840000" expanded="true" signature="157:793" ph="{...}" />
-                <marker date="1550397840000" expanded="true" signature="186:315" ph="{...}" />
-                <marker date="1550397840000" expanded="true" signature="353:788" ph="{...}" />
-                <marker date="1550397840000" expanded="true" signature="409:784" ph="{...}" />
+                <marker date="1551355342739" expanded="false" signature="6:43" ph="..." />
+                <marker date="1551355342739" expanded="true" signature="78:154" ph="{...}" />
+                <marker date="1551355342739" expanded="true" signature="125:152" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/FakePlayerFollowArtifact.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/SpeedChangeModifier.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="119">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
-                <marker date="1554621235620" expanded="false" signature="6:43" ph="..." />
-                <marker date="1554621235620" expanded="true" signature="78:185" ph="{...}" />
-                <marker date="1554621235620" expanded="true" signature="135:183" ph="{...}" />
+                <marker date="1551361372156" expanded="false" signature="6:43" ph="..." />
+                <marker date="1551361372156" expanded="true" signature="78:164" ph="{...}" />
+                <marker date="1551361372156" expanded="true" signature="130:162" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/FakePlayerFollowSystem.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/HasteArtifactSystem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+            <state relative-caret-position="357">
+              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
               <folding>
-                <marker date="1554996450743" expanded="false" signature="6:190" ph="..." />
-                <marker date="1554996450743" expanded="true" signature="222:1787" ph="{...}" />
-                <marker date="1554996450743" expanded="true" signature="322:1785" ph="{...}" />
-                <marker date="1554996450743" expanded="true" signature="349:569" ph="{...}" />
-                <marker date="1554996450743" expanded="true" signature="597:775" ph="{...}" />
-                <marker date="1554996450743" expanded="true" signature="813:1782" ph="{...}" />
-                <marker date="1554996450743" expanded="true" signature="933:1299" ph="{...}" />
-                <marker date="1554996450743" expanded="true" signature="1078:1246" ph="{...}" />
-                <marker date="1554996450743" expanded="true" signature="1380:1777" ph="{...}" />
+                <marker date="1554999457028" expanded="true" signature="6:131" ph="..." />
+                <marker date="1554999457028" expanded="true" signature="163:1830" ph="{...}" />
+                <marker date="1554999457028" expanded="true" signature="217:1828" ph="{...}" />
+                <marker date="1554999457028" expanded="true" signature="248:401" ph="{...}" />
+                <marker date="1554999457028" expanded="true" signature="427:521" ph="{...}" />
+                <marker date="1554999457028" expanded="true" signature="547:641" ph="{...}" />
+                <marker date="1554999457028" expanded="true" signature="678:1825" ph="{...}" />
+                <marker date="1554999457028" expanded="true" signature="820:1440" ph="{...}" />
+                <marker date="1554999457028" expanded="true" signature="1034:1211" ph="{...}" />
+                <marker date="1554999457028" expanded="true" signature="1107:1205" ph="{...}" />
+                <marker date="1554999457028" expanded="true" signature="1237:1326" ph="{...}" />
+                <marker date="1554999457028" expanded="true" signature="1522:1647" ph="{...}" />
+                <marker date="1554999457028" expanded="true" signature="1696:1821" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -3647,169 +3629,175 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/CooldownSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DictionaryExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIArtifactCooldown.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIShowArtifacts.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIBullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Creatures/RotationComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structures/MeleeWeapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structures/entity4.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structures/RangedWeapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactsPoolComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities.Hybrid/EntityManagerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapGeneration/Room.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapGeneration/MapGeneration2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/CooldownReduceSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapGeneration/MapGeneration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapGeneration/Triangle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/CooldownComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/CooldownReduceArtifact.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/AnimationSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/int2x2.gen.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Entity/Artifacts/ActiveBasic.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/PlayerCallArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/FakePlayerFollowSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Enemy/EnemyGeneratorSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Attack/PreAttackComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/DefenderArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0107EDE-DA46-4B62-A3A4-8CFB7B3E0850/7f/064fd02c/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0107EDE-DA46-4B62-A3A4-8CFB7B3E0850/6e/36b81210/NativeArray`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Stats/PlayerParametersStatComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities.Hybrid/EntityManagerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/DurationComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DictionaryExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1C621EEF-6860-4159-8259-C91077C52483/e9/05be7962/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIArtifactCooldown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/AroundShotPassiveArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/int2x2.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIBullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/StartArtifactDistributionSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/int4.gen.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/PhaseArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Types/ComponentType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/LuckArtifact.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/LuckArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/RotationSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Pool/PoolComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/СreatureDeathSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/InputMovementComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/MouseControllerSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Relations/PlayerFollowComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/DamageSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structures/MeleeWeapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/DurationComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structures/entity4.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Pool/PullSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModificatorSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModificatorDrawing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/DeathSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Pool/PullComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Attack/MeleeAttackSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Attack/RangedAttackSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ComponentSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Enemy/ExplodeEnemySystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/FakePlayerFollowSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Input/PlayerInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Input/PlayerAttackInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Input/PlayerUseSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structures/RangedWeapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapGeneration/Room.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/float2.gen.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Input/InputSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Attack/MeleeAttackSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/PhaseArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Attack/PreAttack/AroundShotPreAttackSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapGeneration/MapGeneration2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Attack/RangedAttackSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapGeneration/MapGeneration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8EA872B-C6C3-4547-B28C-904F5E42F85A/8a/ef58fcb4/Byte.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/ChanceArtifactComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Attack/PreAttackComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactsPoolComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Attack/MeleeAttackComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/SpeedChangeModifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8EA872B-C6C3-4547-B28C-904F5E42F85A/79/63bc8745/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Attack/MeleeWeaponComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Attack/RangedWeaponComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Attack/RangedAttackComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Attack/PreAttack/AroundShotFlag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/EntityArray.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Flags/CameraComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Pool/PullComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Entity/Artifacts/ActiveBasic.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Pool/PoolComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/RegenByShotArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modificators/StunModificatorComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Entity/Player.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modificators/StunModificatorComponent.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/float3.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Entity/Enemy.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0107EDE-DA46-4B62-A3A4-8CFB7B3E0850/61/818ebe3f/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/int2.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/int3.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/HasteArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/PhaseArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModificatorSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ChanceByHpLoseSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/RotationSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/AnimationSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0107EDE-DA46-4B62-A3A4-8CFB7B3E0850/af/99399c95/Time.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/DefenderArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/СreatureDeathSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/ChanceByHpLoseComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/MouseControllerSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ActiveArtifactCooldownSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/DamageSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Enemy/ExplodeEnemyComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Enemy/ExplodeEnemySystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/MovingSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/DefenderDieSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/DeathSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModificatorDrawing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/ArthurStoneSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/CooldownSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Input/PlayerInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Input/InputSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Collision/CollisionComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Input/PlayerAttackInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/HasteArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Input/PlayerUseSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/HpRegenArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Items/PickUpSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Items/PickUpMeleeSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Items/PickUpRangedSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Colision/CollisionSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/EntityArray.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/AroundShotSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/DurationComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/HpRegenArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/HasteArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/ArthurStoneSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Enemy/EnemyGeneratorComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/DefenderDieSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/PlayerDefenderSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/float3.gen.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ChanceByHpLoseSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/RadiusComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactUsingComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/CallArtifactComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modificators/StunModificatorComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/StoneGazeArtifact.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModifierSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/int2.gen.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Util/ActiveArtifactCooldownSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/int3.gen.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/MovingSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Flags/PlayerComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/ModifierSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/SlowDownArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIShowArtifacts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/ArthurStoneArtifact.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/ModifierComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8D2DEAE-EB3A-4471-B3E2-24C2A136823A/6f/68188c0f/Random.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/StunModifier.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/SpeedChangeModifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/StoneGazeArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Relations/PlayerFollowSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/PlayerDefenderSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/HpRegenArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.0.9-preview.10/Unity.Collections/NativeArraySOA.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/RadiusComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.0.9-preview.10/Unity.Collections/NativeList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModifierSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.0.9-preview.10/Unity.Collections/NativeArrayExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/PlayerDefenderSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/SlowDownArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/CooldownComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/UI/UIBulletComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/UI/UIArtifactCooldownComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/FakePlayerFollowArtifact.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/UI/UIHealthComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Enemy/ExplodeEnemyComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ComponentSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Flags/EnemyComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/PlayerDefenderComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Flags/PlayerBulletComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Flags/CameraComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Flags/PlayerComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Items/PickUpRangedComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Items/PickUpMeleeComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Items/PickUpComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Stats/PlayerParametersStatComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Damage/HybridDeathComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Damage/DamageComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Attack/MeleeAttackComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/LuckArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Damage/DeathComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Attack/MeleeWeaponComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Attack/RangedAttackComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Attack/RangedWeaponComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/TeleportArtifact.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/AroundShotPassiveArtifact.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Attack/PreAttack/AroundShotFlag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities.Hybrid/GameObjectEntity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/LuckArtifact.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/InputAttackComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/InputMouseComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.0.9-preview.10/Unity.Collections/NativeList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/MouseSettingsComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Relations/PlayerFollowOffsetComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/FrontTeleportArtifact.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/InputUseComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.0.9-preview.10/Unity.Collections/NativeArrayExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities.Hybrid/GameObjectEntity.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/FrontTeleportArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Relations/PlayerFollowSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Attack/PreAttack/AroundShotPreAttackSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/ArthurStoneArtifact.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/HasteArtifact.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NestedObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/RegenByShotArtifact.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/StoneGazeArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/math.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/PlayerDefenderComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/EntityCommandBuffer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/TeleportArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/StunModifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/PlayerDefenderSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/InputMovementComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Settings/InputUseComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Util/ChanceArtifactComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Items/PickUpSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Stats/PlayerParametersStatSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/DurationComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Collision/CollisionComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/HpRegenArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/StoneGazeArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/FrontTeleportArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactUsingComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/AroundShotSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/TeleportArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/CooldownReduceArtifact.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Collision/MapComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/PhaseArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Common/ArtifactComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/math.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/EntityCommandBuffer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/FakePlayerFollowArtifact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Creatures/RotationComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Creatures/AnimatorComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/CallArtifactComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/EntityManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Creatures/MovingComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Creatures/ParametersComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/EntityManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Relations/CreatureTransformComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Artifacts/Call/PlayerCallArtifactComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/93881288-31B9-4764-A3F0-C59F22D0E4C4/c2/6a8ade9c/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Modificators/StunModificatorComponent.cs.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/float2x3.gen.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/1.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24D852EC-3AC3-4D89-9BB0-79CFB1FCBE45/92/4541ba1c/IList`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Entity/Player.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ECS/Entity/Enemy.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/CallArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.0.9-preview.10/Unity.Collections/NativeArraySOA.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Enemy/EnemyGeneratorComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Items/PickUpComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/Call/PlayerCallArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Relations/CreatureTransformComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Stats/PlayerParametersStatSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Relations/PlayerFollowOffsetComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Colision/CollisionSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8EA872B-C6C3-4547-B28C-904F5E42F85A/79/e1ed7578/_Type.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NestedObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Component/Relations/PlayerFollowComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/CooldownReduceSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapGeneration/Triangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@0.0.12-preview.19/Unity.Mathematics/float2x3.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/ModifierSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/TeleportArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/1.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8EA872B-C6C3-4547-B28C-904F5E42F85A/c3/c9bab14c/Type.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/System/Artifacts/FrontTeleportArtifactSystem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -3829,7 +3817,6 @@
         <option value="$PROJECT_DIR$/Assets/ECS/System/Artifacts/PhaseArtifactSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/SlowDownArtifact.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/System/Artifacts/SlowDownArtifactSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/ECS/System/Artifacts/HasteArtifactSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/Component/Pull/EnemyPoolComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/System/Pool/EnemyPullSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/Component/Pool/EnemyPoolComponent.cs" />
@@ -3865,6 +3852,7 @@
         <option value="$PROJECT_DIR$/Assets/ECS/System/Relations/PlayerFollowSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/Component/Artifacts/FakePlayerFollowArtifact.cs" />
         <option value="$PROJECT_DIR$/Assets/ECS/System/Artifacts/FakePlayerFollowSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/System/Artifacts/HasteArtifactSystem.cs" />
       </list>
     </option>
   </component>
@@ -3880,8 +3868,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="601" />
-    <option name="y" value="62" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -3893,31 +3880,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="diplodoc" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="diplodoc" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Assets" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="diplodoc" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Assets" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Scenes" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
       </pane>
       <pane id="UnityExplorer">
         <subPane>
@@ -3950,30 +3914,7 @@
               <item name="ECS" type="1045f7f1:UnityExplorerNode" />
               <item name="Component" type="1045f7f1:UnityExplorerNode" />
               <item name="Artifacts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Call" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
-              <item name="Component" type="1045f7f1:UnityExplorerNode" />
-              <item name="Artifacts" type="1045f7f1:UnityExplorerNode" />
               <item name="Util" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
-              <item name="Component" type="1045f7f1:UnityExplorerNode" />
-              <item name="Attack" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
-              <item name="Component" type="1045f7f1:UnityExplorerNode" />
-              <item name="Attack" type="1045f7f1:UnityExplorerNode" />
-              <item name="PreAttack" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -3995,13 +3936,6 @@
               <item name="ECS" type="1045f7f1:UnityExplorerNode" />
               <item name="Component" type="1045f7f1:UnityExplorerNode" />
               <item name="Damage" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
-              <item name="Component" type="1045f7f1:UnityExplorerNode" />
-              <item name="Enemy" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -4036,13 +3970,6 @@
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="ECS" type="1045f7f1:UnityExplorerNode" />
               <item name="Component" type="1045f7f1:UnityExplorerNode" />
-              <item name="Pool" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
-              <item name="Component" type="1045f7f1:UnityExplorerNode" />
               <item name="Relations" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
@@ -4071,30 +3998,7 @@
               <item name="ECS" type="1045f7f1:UnityExplorerNode" />
               <item name="System" type="1045f7f1:UnityExplorerNode" />
               <item name="Artifacts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Call" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
-              <item name="System" type="1045f7f1:UnityExplorerNode" />
-              <item name="Artifacts" type="1045f7f1:UnityExplorerNode" />
               <item name="Util" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
-              <item name="System" type="1045f7f1:UnityExplorerNode" />
-              <item name="Attack" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
-              <item name="System" type="1045f7f1:UnityExplorerNode" />
-              <item name="Attack" type="1045f7f1:UnityExplorerNode" />
-              <item name="PreAttack" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -4115,13 +4019,6 @@
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="ECS" type="1045f7f1:UnityExplorerNode" />
               <item name="System" type="1045f7f1:UnityExplorerNode" />
-              <item name="Input" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
-              <item name="System" type="1045f7f1:UnityExplorerNode" />
               <item name="Items" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
@@ -4130,13 +4027,6 @@
               <item name="ECS" type="1045f7f1:UnityExplorerNode" />
               <item name="System" type="1045f7f1:UnityExplorerNode" />
               <item name="Modifiers" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
-              <item name="System" type="1045f7f1:UnityExplorerNode" />
-              <item name="Relations" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -4152,18 +4042,6 @@
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Structures" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="UI" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Packages" type="4e2708dd:PackagesRoot" />
             </path>
           </expand>
@@ -4171,6 +4049,29 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="diplodoc" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="diplodoc" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Assets" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="diplodoc" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Assets" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Scenes" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
       </pane>
     </panes>
   </component>
@@ -4308,7 +4209,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280702000" />
+    <option name="totallyTimeSpent" value="281557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -4323,7 +4224,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21481876" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34275052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -4346,7 +4247,7 @@
       <window_info anchor="bottom" id="Logcat" order="14" weight="0.3289689" />
       <window_info anchor="bottom" id="Unit Tests" order="15" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="16" />
-      <window_info anchor="bottom" id="Version Control" order="17" weight="0.42686892" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="17" visible="true" weight="0.42686892" />
       <window_info anchor="bottom" id="Build" order="18" weight="0.3289689" />
       <window_info anchor="bottom" id="Inspection Results" order="19" weight="0.3289689" />
       <window_info anchor="bottom" id="Unity" order="20" weight="0.3289689" />
@@ -4504,13 +4405,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8D2DEAE-EB3A-4471-B3E2-24C2A136823A/6f/68188c0f/Random.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="287" column="31" selection-start-line="287" selection-start-column="31" selection-end-line="287" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8D2DEAE-EB3A-4471-B3E2-24C2A136823A/6f/68188c0f/Random.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Stats/PlayerParametersStatSystem.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-281">
@@ -4664,17 +4559,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ECS/System/Modifiers/StunModifierSystem.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
-            <marker date="1551359260000" expanded="false" signature="6:131" ph="..." />
-            <marker date="1551359260000" expanded="true" signature="159:1114" ph="{...}" />
-            <marker date="1551359260000" expanded="true" signature="251:1112" ph="{...}" />
-            <marker date="1551359260000" expanded="true" signature="279:367" ph="{...}" />
-            <marker date="1551359260000" expanded="true" signature="395:450" ph="{...}" />
-            <marker date="1551359260000" expanded="true" signature="493:1109" ph="{...}" />
-            <marker date="1551359260000" expanded="true" signature="716:1105" ph="{...}" />
-            <marker date="1551359260000" expanded="true" signature="801:1100" ph="{...}" />
+            <marker date="1551359258370" expanded="false" signature="6:131" ph="..." />
+            <marker date="1551359258370" expanded="true" signature="159:1114" ph="{...}" />
+            <marker date="1551359258370" expanded="true" signature="251:1112" ph="{...}" />
+            <marker date="1551359258370" expanded="true" signature="279:367" ph="{...}" />
+            <marker date="1551359258370" expanded="true" signature="395:450" ph="{...}" />
+            <marker date="1551359258370" expanded="true" signature="493:1109" ph="{...}" />
+            <marker date="1551359258370" expanded="true" signature="716:1105" ph="{...}" />
+            <marker date="1551359258370" expanded="true" signature="801:1100" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -4883,24 +4778,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modificators/StunModificatorComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="51">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
-            <marker date="1550398324000" expanded="false" signature="6:40" ph="..." />
-            <marker date="1550398324000" expanded="true" signature="68:259" ph="{...}" />
-            <marker date="1550398324000" expanded="true" signature="125:257" ph="{...}" />
+            <marker date="1550398323672" expanded="false" signature="6:40" ph="..." />
+            <marker date="1550398323672" expanded="true" signature="68:259" ph="{...}" />
+            <marker date="1550398323672" expanded="true" signature="125:257" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ECS/Component/Modifiers/PoisonModifier.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <marker date="1551355344000" expanded="false" signature="6:43" ph="..." />
-            <marker date="1551355344000" expanded="true" signature="78:154" ph="{...}" />
-            <marker date="1551355344000" expanded="true" signature="125:152" ph="{...}" />
+            <marker date="1551355342739" expanded="false" signature="6:43" ph="..." />
+            <marker date="1551355342739" expanded="true" signature="78:154" ph="{...}" />
+            <marker date="1551355342739" expanded="true" signature="125:152" ph="{...}" />
           </folding>
         </state>
       </provider>
